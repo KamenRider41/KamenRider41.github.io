@@ -29,7 +29,8 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.1"><link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="あなたの可愛い41" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -439,10 +440,108 @@
 
 
 
-<main class="container content">
+<main class="post-container content">
 
     
-    <!-- 文章内容详情 -->
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+        background-color: rgb(255, 255, 255,0.7);
+        border-radius: 10px;
+        box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15), 0 5px 15px rgba(0, 0, 0, .07), 0 2px 5px -5px rgba(0, 0, 0, .1) !important;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -487,23 +586,37 @@
                 
 
                 
-
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    986
+                </div>
                 
 
                 
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    4 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
             </div>
         </div>
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Python如何生成windows可执行的exe文件"><a href="#Python如何生成windows可执行的exe文件" class="headerlink" title="Python如何生成windows可执行的exe文件"></a>Python如何生成windows可执行的exe文件</h1><h2 id="为什么要生成可执行文件"><a href="#为什么要生成可执行文件" class="headerlink" title="为什么要生成可执行文件"></a>为什么要生成可执行文件</h2><ul>
+                <h1><span id="python-ru-he-sheng-cheng-windows-ke-zhi-xing-de-exe-wen-jian">Python如何生成windows可执行的exe文件</span></h1><h2><span id="wei-shi-me-yao-sheng-cheng-ke-zhi-xing-wen-jian">为什么要生成可执行文件</span></h2><ul>
 <li>不需要安装对应的编程环境</li>
 <li>可以将你的应用闭源</li>
 <li>用户可以方便，快捷的直接使用</li>
 </ul>
-<h2 id="打包工具"><a href="#打包工具" class="headerlink" title="打包工具"></a>打包工具</h2><p><strong>pyinstaller</strong></p>
-<h3 id="安装pyinstaller"><a href="#安装pyinstaller" class="headerlink" title="安装pyinstaller"></a>安装pyinstaller</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install pyinstaller</span><br></pre></td></tr></table></figure>
-<h3 id="pyinstaller参数作用"><a href="#pyinstaller参数作用" class="headerlink" title="pyinstaller参数作用"></a>pyinstaller参数作用</h3><ul>
+<h2><span id="da-bao-gong-ju">打包工具</span></h2><p><strong>pyinstaller</strong></p>
+<h3><span id="an-zhuang-pyinstaller">安装pyinstaller</span></h3><pre><code>pip install pyinstaller</code></pre><h3><span id="pyinstaller-can-shu-zuo-yong">pyinstaller参数作用</span></h3><ul>
 <li>-F表示生成单个可执行文件</li>
 <li>-D -onedir创建一个目录，包含exe文件，但会依赖很多文件（默认选项）</li>
 <li>-w表示去掉控制台窗口，着在GUI界面时非常有用。不过如果是命令行程序的话那就不能使用这个参数</li>
@@ -512,17 +625,107 @@
 <li>-i 表示可执行文件的图标</li>
 <li>其他参数，可以通过pyinstaller –help查看</li>
 </ul>
-<h2 id="生成exe实战"><a href="#生成exe实战" class="headerlink" title="生成exe实战"></a>生成exe实战</h2><h3 id="生成指令"><a href="#生成指令" class="headerlink" title="生成指令"></a>生成指令</h3><p>首先我们通过cd 到达工程目录，然后使用代码</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pyinstaller -Fw --icon&#x3D;xin.ico love.py</span><br></pre></td></tr></table></figure>
-<p>–icon=xin.ico 是指定生成exe软件的图表，这个xin.ico图标放在工程文件的目录下<br>love.py是要生成exe文件的原python文件</p>
-<h3 id="生成效果"><a href="#生成效果" class="headerlink" title="生成效果"></a>生成效果</h3><p>指令执行后会生成一个dist文件夹，里面有生成exe文件，然后需要把表白图标也放到这个文件夹下，然后点开exe文件就可以运行了。<br><img src="https://img-blog.csdnimg.cn/20200708222028444.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70" alt="生成效果"></p>
-<h3 id="表白软件效果！"><a href="#表白软件效果！" class="headerlink" title="表白软件效果！"></a>表白软件效果！</h3><h4 id="点开效果"><a href="#点开效果" class="headerlink" title="点开效果"></a>点开效果</h4><p><img src="https://img-blog.csdnimg.cn/20200708222918849.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="点开效果"></p>
-<h4 id="点击X的效果"><a href="#点击X的效果" class="headerlink" title="点击X的效果"></a>点击X的效果</h4><p><img src="https://img-blog.csdnimg.cn/20200708224723555.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="关是关不掉的"></p>
-<h4 id="点击不喜欢的效果"><a href="#点击不喜欢的效果" class="headerlink" title="点击不喜欢的效果"></a>点击不喜欢的效果</h4><p><img src="https://img-blog.csdnimg.cn/20200708224841834.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="不喜欢也是不行的"></p>
-<h4 id="点击喜欢的效果"><a href="#点击喜欢的效果" class="headerlink" title="点击喜欢的效果"></a>点击喜欢的效果</h4><p><img src="https://img-blog.csdnimg.cn/20200708224908511.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="只能点喜欢才能关闭"></p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>除了点喜欢是关闭不了窗口的，给人一种霸道总裁的感觉，真是太棒了！<br>如果妹子使用任务管理器和直接关机来解决，那就直接放弃吧！她不懂浪漫。。。</p>
-<h3 id="最后是表白软件的代码"><a href="#最后是表白软件的代码" class="headerlink" title="最后是表白软件的代码"></a>最后是表白软件的代码</h3><p>代码其实很简单就是python一个包的使用，还可以用pygame给软件加配乐，但是配乐后生成exe有点小bug还没有解决，如果有同学解决了的可以联系我，我们一起实现男女协调，人人成家呀！！！</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> tkinter <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">from</span> tkinter <span class="keyword">import</span> messagebox</span><br><span class="line"></span><br><span class="line"><span class="comment"># import pygame</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#直接点击x的方法</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">closeWindow</span><span class="params">()</span>:</span></span><br><span class="line">   messagebox.showinfo(title=<span class="string">"先别走啊！"</span>,message=<span class="string">"躲得过初一，躲不过十五！"</span>)</span><br><span class="line">   <span class="keyword">return</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#点击喜欢后的方法</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Love</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="comment">#顶级窗口</span></span><br><span class="line">    love=Toplevel(window)</span><br><span class="line">    love.geometry(<span class="string">"240x90+820+400"</span>)</span><br><span class="line">    love.title(<span class="string">"好巧，我也是"</span>)</span><br><span class="line">    label=Label(love,text = <span class="string">"真好"</span>,font = (<span class="string">"微软雅黑"</span>,<span class="number">10</span>))</span><br><span class="line">    <span class="comment">#pack 定位</span></span><br><span class="line">    label.pack()</span><br><span class="line">    btn = Button (love , text =<span class="string">"确定"</span>,width = <span class="number">10</span>,heigh = <span class="number">2</span>,command=closeallwindow)</span><br><span class="line">    btn.pack()</span><br><span class="line">    love.protocol(<span class="string">"WM_DELETE_WINDOW"</span>, closelove)</span><br><span class="line"></span><br><span class="line"> <span class="comment">#喜欢后的点击x的方法</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">closelove</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#点击喜欢后确定的方法</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">closeallwindow</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="comment">#destory 销毁</span></span><br><span class="line">    window.destroy()</span><br><span class="line"></span><br><span class="line"><span class="comment">#点击不喜欢的方法</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">nolove</span> <span class="params">()</span>:</span></span><br><span class="line">    no_love = Toplevel(window)</span><br><span class="line">    no_love .geometry(<span class="string">"240x90+820+400"</span>)</span><br><span class="line">    no_love.title(<span class="string">"再考虑考虑呗"</span>)</span><br><span class="line">    label = Label(no_love,text =<span class="string">"麻烦你再想想办法！"</span>,font =(<span class="string">"微软雅黑"</span>,<span class="number">18</span>))</span><br><span class="line">    label.pack ()</span><br><span class="line">    btn = Button(no_love, text=<span class="string">"确定"</span>, width=<span class="number">10</span>, heigh=<span class="number">2</span>, command=no_love.destroy)</span><br><span class="line">    btn.pack()</span><br><span class="line">    no_love.protocol(<span class="string">"WM_DELETE_WINDOW"</span>, closenolove)</span><br><span class="line"></span><br><span class="line"><span class="comment">#不喜欢再考虑点击x的方法</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">closenolove</span> <span class="params">()</span>:</span></span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#创建窗口</span></span><br><span class="line">window =Tk()</span><br><span class="line"></span><br><span class="line"><span class="comment">#窗口标题</span></span><br><span class="line">window .title (<span class="string">"你喜欢我吗?"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#窗口的大小      中间用x连接</span></span><br><span class="line">window.geometry(<span class="string">"580x710"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#窗口的位置  几何</span></span><br><span class="line">window.geometry(<span class="string">"+560+150"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#protocol 用户关闭窗口触发的事件</span></span><br><span class="line">window.protocol (<span class="string">"WM_DELETE_WINDOW"</span>,closeWindow)</span><br><span class="line"></span><br><span class="line"><span class="comment">#标签控件</span></span><br><span class="line">label=Label(window,text=<span class="string">"hey 41！"</span>,font=(<span class="string">"微软雅黑"</span>),fg=<span class="string">"red"</span>)</span><br><span class="line"><span class="comment">#定位  网格布局</span></span><br><span class="line">label.grid (sticky=W )</span><br><span class="line"><span class="comment">#标签控件</span></span><br><span class="line">label1=Label(window,text=<span class="string">"41，你喜欢我吗？"</span>,font=(<span class="string">"微软雅黑"</span>,<span class="number">25</span>))</span><br><span class="line"><span class="comment">#定位  网格布局    sticky对齐方式 E W S  N</span></span><br><span class="line">label1.grid (row=<span class="number">1</span>,column=<span class="number">1</span>,sticky=E)</span><br><span class="line"></span><br><span class="line"><span class="comment">#显示图片</span></span><br><span class="line">photo=PhotoImage(file=<span class="string">"./表白图标.png"</span>)</span><br><span class="line">imageLable=Label(window,image = photo )</span><br><span class="line">imageLable.grid(row = <span class="number">2</span>,columnspan =<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#按钮控件</span></span><br><span class="line">btn = Button (window,text =<span class="string">"喜欢"</span>,width = <span class="number">15</span>,heigh = <span class="number">2</span>,command = Love)</span><br><span class="line">btn.grid(row =<span class="number">3</span> ,column =<span class="number">0</span> ,sticky = W )</span><br><span class="line"></span><br><span class="line">btn1=Button (window,text =<span class="string">"不喜欢"</span>,command =nolove)</span><br><span class="line">btn1.grid(row=<span class="number">3</span>,column=<span class="number">1</span>,sticky = E,)</span><br><span class="line"></span><br><span class="line"><span class="comment"># file=r'D:\Graduation project\untitled5\love.mp3'</span></span><br><span class="line"><span class="comment"># pygame.mixer.init()</span></span><br><span class="line"><span class="comment"># track=pygame.mixer.music.load(file)</span></span><br><span class="line"><span class="comment"># pygame.mixer.music.play()</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#显示窗口  消息循环</span></span><br><span class="line">window .mainloop()</span><br></pre></td></tr></table></figure>
+<h2><span id="sheng-cheng-exe-shi-zhan">生成exe实战</span></h2><h3><span id="sheng-cheng-zhi-ling">生成指令</span></h3><p>首先我们通过cd 到达工程目录，然后使用代码</p>
+<pre><code>pyinstaller -Fw --icon=xin.ico love.py</code></pre><p>–icon=xin.ico 是指定生成exe软件的图表，这个xin.ico图标放在工程文件的目录下<br>love.py是要生成exe文件的原python文件</p>
+<h3><span id="sheng-cheng-xiao-guo">生成效果</span></h3><p>指令执行后会生成一个dist文件夹，里面有生成exe文件，然后需要把表白图标也放到这个文件夹下，然后点开exe文件就可以运行了。<br><img src="https://img-blog.csdnimg.cn/20200708222028444.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70" alt="生成效果"></p>
+<h3><span id="biao-bai-ruan-jian-xiao-guo">表白软件效果！</span></h3><h4><span id="dian-kai-xiao-guo">点开效果</span></h4><p><img src="https://img-blog.csdnimg.cn/20200708222918849.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="点开效果"></p>
+<h4><span id="dian-ji-x-de-xiao-guo">点击X的效果</span></h4><p><img src="https://img-blog.csdnimg.cn/20200708224723555.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="关是关不掉的"></p>
+<h4><span id="dian-ji-bu-xi-huan-de-xiao-guo">点击不喜欢的效果</span></h4><p><img src="https://img-blog.csdnimg.cn/20200708224841834.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="不喜欢也是不行的"></p>
+<h4><span id="dian-ji-xi-huan-de-xiao-guo">点击喜欢的效果</span></h4><p><img src="https://img-blog.csdnimg.cn/20200708224908511.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="只能点喜欢才能关闭"></p>
+<h3><span id="zong-jie">总结</span></h3><p>除了点喜欢是关闭不了窗口的，给人一种霸道总裁的感觉，真是太棒了！<br>如果妹子使用任务管理器和直接关机来解决，那就直接放弃吧！她不懂浪漫。。。</p>
+<h3><span id="zui-hou-shi-biao-bai-ruan-jian-de-dai-ma">最后是表白软件的代码</span></h3><p>代码其实很简单就是python一个包的使用，还可以用pygame给软件加配乐，但是配乐后生成exe有点小bug还没有解决，如果有同学解决了的可以联系我，我们一起实现男女协调，人人成家呀！！！</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">from</span> tkinter <span class="token keyword">import</span> <span class="token operator">*</span>
+<span class="token keyword">from</span> tkinter <span class="token keyword">import</span> messagebox
+
+<span class="token comment" spellcheck="true"># import pygame</span>
+
+
+<span class="token comment" spellcheck="true">#直接点击x的方法</span>
+<span class="token keyword">def</span> <span class="token function">closeWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+   messagebox<span class="token punctuation">.</span>showinfo<span class="token punctuation">(</span>title<span class="token operator">=</span><span class="token string">"先别走啊！"</span><span class="token punctuation">,</span>message<span class="token operator">=</span><span class="token string">"躲得过初一，躲不过十五！"</span><span class="token punctuation">)</span>
+   <span class="token keyword">return</span>
+
+<span class="token comment" spellcheck="true">#点击喜欢后的方法</span>
+<span class="token keyword">def</span> <span class="token function">Love</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment" spellcheck="true">#顶级窗口</span>
+    love<span class="token operator">=</span>Toplevel<span class="token punctuation">(</span>window<span class="token punctuation">)</span>
+    love<span class="token punctuation">.</span>geometry<span class="token punctuation">(</span><span class="token string">"240x90+820+400"</span><span class="token punctuation">)</span>
+    love<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">"好巧，我也是"</span><span class="token punctuation">)</span>
+    label<span class="token operator">=</span>Label<span class="token punctuation">(</span>love<span class="token punctuation">,</span>text <span class="token operator">=</span> <span class="token string">"真好"</span><span class="token punctuation">,</span>font <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token string">"微软雅黑"</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token comment" spellcheck="true">#pack 定位</span>
+    label<span class="token punctuation">.</span>pack<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    btn <span class="token operator">=</span> Button <span class="token punctuation">(</span>love <span class="token punctuation">,</span> text <span class="token operator">=</span><span class="token string">"确定"</span><span class="token punctuation">,</span>width <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">,</span>heigh <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">,</span>command<span class="token operator">=</span>closeallwindow<span class="token punctuation">)</span>
+    btn<span class="token punctuation">.</span>pack<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    love<span class="token punctuation">.</span>protocol<span class="token punctuation">(</span><span class="token string">"WM_DELETE_WINDOW"</span><span class="token punctuation">,</span> closelove<span class="token punctuation">)</span>
+
+ <span class="token comment" spellcheck="true">#喜欢后的点击x的方法</span>
+<span class="token keyword">def</span> <span class="token function">closelove</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span>
+
+<span class="token comment" spellcheck="true">#点击喜欢后确定的方法</span>
+<span class="token keyword">def</span> <span class="token function">closeallwindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment" spellcheck="true">#destory 销毁</span>
+    window<span class="token punctuation">.</span>destroy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">#点击不喜欢的方法</span>
+<span class="token keyword">def</span> nolove <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    no_love <span class="token operator">=</span> Toplevel<span class="token punctuation">(</span>window<span class="token punctuation">)</span>
+    no_love <span class="token punctuation">.</span>geometry<span class="token punctuation">(</span><span class="token string">"240x90+820+400"</span><span class="token punctuation">)</span>
+    no_love<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">"再考虑考虑呗"</span><span class="token punctuation">)</span>
+    label <span class="token operator">=</span> Label<span class="token punctuation">(</span>no_love<span class="token punctuation">,</span>text <span class="token operator">=</span><span class="token string">"麻烦你再想想办法！"</span><span class="token punctuation">,</span>font <span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">"微软雅黑"</span><span class="token punctuation">,</span><span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    label<span class="token punctuation">.</span>pack <span class="token punctuation">(</span><span class="token punctuation">)</span>
+    btn <span class="token operator">=</span> Button<span class="token punctuation">(</span>no_love<span class="token punctuation">,</span> text<span class="token operator">=</span><span class="token string">"确定"</span><span class="token punctuation">,</span> width<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">,</span> heigh<span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">,</span> command<span class="token operator">=</span>no_love<span class="token punctuation">.</span>destroy<span class="token punctuation">)</span>
+    btn<span class="token punctuation">.</span>pack<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    no_love<span class="token punctuation">.</span>protocol<span class="token punctuation">(</span><span class="token string">"WM_DELETE_WINDOW"</span><span class="token punctuation">,</span> closenolove<span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">#不喜欢再考虑点击x的方法</span>
+<span class="token keyword">def</span> closenolove <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span>
+
+
+<span class="token comment" spellcheck="true">#创建窗口</span>
+window <span class="token operator">=</span>Tk<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">#窗口标题</span>
+window <span class="token punctuation">.</span>title <span class="token punctuation">(</span><span class="token string">"你喜欢我吗?"</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">#窗口的大小      中间用x连接</span>
+window<span class="token punctuation">.</span>geometry<span class="token punctuation">(</span><span class="token string">"580x710"</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">#窗口的位置  几何</span>
+window<span class="token punctuation">.</span>geometry<span class="token punctuation">(</span><span class="token string">"+560+150"</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">#protocol 用户关闭窗口触发的事件</span>
+window<span class="token punctuation">.</span>protocol <span class="token punctuation">(</span><span class="token string">"WM_DELETE_WINDOW"</span><span class="token punctuation">,</span>closeWindow<span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">#标签控件</span>
+label<span class="token operator">=</span>Label<span class="token punctuation">(</span>window<span class="token punctuation">,</span>text<span class="token operator">=</span><span class="token string">"hey 41！"</span><span class="token punctuation">,</span>font<span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">"微软雅黑"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>fg<span class="token operator">=</span><span class="token string">"red"</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">#定位  网格布局</span>
+label<span class="token punctuation">.</span>grid <span class="token punctuation">(</span>sticky<span class="token operator">=</span>W <span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">#标签控件</span>
+label1<span class="token operator">=</span>Label<span class="token punctuation">(</span>window<span class="token punctuation">,</span>text<span class="token operator">=</span><span class="token string">"41，你喜欢我吗？"</span><span class="token punctuation">,</span>font<span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">"微软雅黑"</span><span class="token punctuation">,</span><span class="token number">25</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">#定位  网格布局    sticky对齐方式 E W S  N</span>
+label1<span class="token punctuation">.</span>grid <span class="token punctuation">(</span>row<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>column<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>sticky<span class="token operator">=</span>E<span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">#显示图片</span>
+photo<span class="token operator">=</span>PhotoImage<span class="token punctuation">(</span>file<span class="token operator">=</span><span class="token string">"./表白图标.png"</span><span class="token punctuation">)</span>
+imageLable<span class="token operator">=</span>Label<span class="token punctuation">(</span>window<span class="token punctuation">,</span>image <span class="token operator">=</span> photo <span class="token punctuation">)</span>
+imageLable<span class="token punctuation">.</span>grid<span class="token punctuation">(</span>row <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">,</span>columnspan <span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">#按钮控件</span>
+btn <span class="token operator">=</span> Button <span class="token punctuation">(</span>window<span class="token punctuation">,</span>text <span class="token operator">=</span><span class="token string">"喜欢"</span><span class="token punctuation">,</span>width <span class="token operator">=</span> <span class="token number">15</span><span class="token punctuation">,</span>heigh <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">,</span>command <span class="token operator">=</span> Love<span class="token punctuation">)</span>
+btn<span class="token punctuation">.</span>grid<span class="token punctuation">(</span>row <span class="token operator">=</span><span class="token number">3</span> <span class="token punctuation">,</span>column <span class="token operator">=</span><span class="token number">0</span> <span class="token punctuation">,</span>sticky <span class="token operator">=</span> W <span class="token punctuation">)</span>
+
+btn1<span class="token operator">=</span>Button <span class="token punctuation">(</span>window<span class="token punctuation">,</span>text <span class="token operator">=</span><span class="token string">"不喜欢"</span><span class="token punctuation">,</span>command <span class="token operator">=</span>nolove<span class="token punctuation">)</span>
+btn1<span class="token punctuation">.</span>grid<span class="token punctuation">(</span>row<span class="token operator">=</span><span class="token number">3</span><span class="token punctuation">,</span>column<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>sticky <span class="token operator">=</span> E<span class="token punctuation">,</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true"># file=r'D:\Graduation project\untitled5\love.mp3'</span>
+<span class="token comment" spellcheck="true"># pygame.mixer.init()</span>
+<span class="token comment" spellcheck="true"># track=pygame.mixer.music.load(file)</span>
+<span class="token comment" spellcheck="true"># pygame.mixer.music.play()</span>
+
+<span class="token comment" spellcheck="true">#显示窗口  消息循环</span>
+window <span class="token punctuation">.</span>mainloop<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <p><img src="https://img-blog.csdnimg.cn/20200709121440737.PNG#pic_center" alt="男女协调，人人成家！"><br>如果对大家有帮助，或者博得了女朋友一笑，大家可以打赏我哦！<br><label style="color:green">最后助大家早日脱单！</label></p>
 
             </div>
@@ -935,6 +1138,100 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 </style>
 
 
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
     
 
 </main>
@@ -944,47 +1241,6 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
     <footer class="page-footer bg-color">
     
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<style>
-    .aplayer .aplayer-lrc p {
-        
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16px !important;
-    }
-
-    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        font-size: 15px;
-        color: #42b983;
-    }
-
-    
-</style>
-<div class="">
-    
-    <div class="row">
-        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
-                   type="song"
-                   id="1395794292"
-                   fixed='true'
-                   autoplay='false'
-                   theme='#42b983'
-                   loop='all'
-                   order='random'
-                   preload='none'
-                   volume='0.7'
-                   list-folded='false'
-        >
-        </meting-js>
-    </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-
-    
     <div class="container row center-align" style="margin-bottom: 0px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
@@ -993,6 +1249,9 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">2.4k</span>&nbsp;字
             
             
             
@@ -1044,7 +1303,17 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
 
 
+    <a href="daimengruwo" class="tooltipped" target="_blank" data-tooltip="添加我的微信: daimengruwo" data-position="top" data-delay="50">
+        <i class="fab fa-weixin"></i>
+    </a>
 
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
 
 </div>
     </div>
@@ -1133,6 +1402,15 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
+    <script type="text/javascript">   
+        var OriginTitile=document.title,st;    
+        document.addEventListener("visibilitychange",function(){        
+            document.hidden?(document.title="ヽ(●-`Д´-)ノ别切走，回来看我呀！",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ真好！",st=setTimeout(function(){document.title=OriginTitile},3e3))    
+            })
+    </script>
+
+
+
 
 </body>
 

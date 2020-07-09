@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="什么是hash表呢？, あなたの可愛い41">
+    <meta name="keywords" content="friends, あなたの可愛い41">
     <meta name="description" content="各位院士请留步0.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>什么是hash表呢？ | あなたの可愛い41</title>
+    <title>friends | あなたの可愛い41</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -425,12 +425,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">什么是hash表呢？</h1>
+                    <h1 class="description center-align post-title">friends</h1>
                 </div>
             </div>
         </div>
@@ -548,29 +548,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/Leetcode/">
-                                <span class="chip bg-color">Leetcode</span>
-                            </a>
-                        
-                            <a href="/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/">
-                                <span class="chip bg-color">哈希表</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/%E7%AE%97%E6%B3%95%E4%B9%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83/" class="post-category">
-                                算法之从入门到放弃
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -579,7 +562,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-07-07
+                    2020-07-09
                 </div>
                 
 
@@ -588,14 +571,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.4k
+                    0
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    5 分
+                    1 分
                 </div>
                 
 
@@ -610,143 +593,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1><span id="ha-xi-biao">哈希表！？</span></h1><pre><code>大家在第一次听到哈希表的时候，会怎么去想这个东西呢？反正我是觉得挺神秘的！
-一定是个很厉害的算法，其实不是，是一个很菜鸟的算法！有多菜呢？我都看得懂！
-哈哈哈，那我们就来一起看看什么是哈希表吧！</code></pre><h2><span id="ha-xi-biao-jian-shu">哈希表简述</span></h2><pre><code>散列表（Hash table，也叫哈希表），是根据关键码值(Key value)而直接进行访问的数据结构。也就是说，
-它通过把关键码值映射到表中一个位置来访问记录，以加快查找的速度。这个映射函数叫做散列函数，
-存放记录的数组叫做散列表。给定表M，存在函数f(key)，对任意给定的关键字值key，代入函数后若
-能得到包含该关键字的记录在表中的地址，则称表M为哈希(Hash）表，函数f(key)为哈希(Hash) 函数。</code></pre><p><label style="color:red"><strong>用自己的话来说</strong></label>    <strong>我们给数据找个代号，然后直接用代号来访问这个数据，这个算法就对应了c++里面的map和unordered_map</strong></p>
-<h2><span id="map-he-unordered-map-de-qu-bie">map和unordered_map的区别</span></h2><h3><span id="yin-ru-tou-wen-jian-bu-tong">引入头文件不同</span></h3><table>
-<thead>
-<tr>
-<th>类别</th>
-<th>头文件</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>map</td>
-<td>#include &lt; map &gt;</td>
-</tr>
-<tr>
-<td>unordered_map</td>
-<td>#include &lt; unordered_map &gt;</td>
-</tr>
-</tbody></table>
-<h3><span id="shi-xian-ji-zhi-bu-tong">实现机制不同</span></h3><table>
-<thead>
-<tr>
-<th>类别</th>
-<th>实现机制</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>map</td>
-<td>红黑树</td>
-</tr>
-<tr>
-<td>unordered_map</td>
-<td>hash表</td>
-</tr>
-</tbody></table>
-<h3><span id="you-que-dian-bi-jiao">优缺点比较</span></h3><table>
-<thead>
-<tr>
-<th>类别</th>
-<th>优点</th>
-<th>缺点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>map</td>
-<td>有序性，简化操作</td>
-<td>空间占用率高</td>
-</tr>
-<tr>
-<td>unordered_map</td>
-<td>内部哈希表，查找快</td>
-<td>建立比较耗费时间</td>
-</tr>
-</tbody></table>
-<h2><span id="liang-shu-zhi-he-leetcode-cong-ti-mu-ren-shi-ha-xi">两数之和（leetcode）从题目认识哈希</span></h2><h3><span id="ti-mu-chan-shu">题目阐述</span></h3><p>给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。<br>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。<br>示例:</p>
-<pre><code>给定 nums = [2, 7, 11, 15],
-target = 9
-因为 nums[0] + nums[1] = 2 + 7 =9
-所以返回 [0, 1]</code></pre><h3><span id="bao-li-po-jie">暴力破解</span></h3><p><del>夏天虽热，也要注意保暖，不要感冒，多喝烫水，先来一手直男破解</del></p>
-<p>大力出奇迹，冲鸭！爆破开始！</p>
-<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
-<span class="token keyword">public</span><span class="token punctuation">:</span>
-    vector<span class="token operator">&lt;</span>int<span class="token operator">></span><span class="token function">twoSum</span><span class="token punctuation">(</span>vector<span class="token operator">&lt;</span>int<span class="token operator">></span><span class="token operator">&amp;</span> nums<span class="token punctuation">,</span> int target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    int len<span class="token operator">=</span>nums<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">for</span><span class="token punctuation">(</span>int i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>len<span class="token number">-1</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>
-        <span class="token keyword">for</span><span class="token punctuation">(</span>int j<span class="token operator">=</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>j<span class="token operator">&lt;</span>len<span class="token punctuation">;</span>j<span class="token operator">++</span><span class="token punctuation">)</span>
-        <span class="token punctuation">{</span>
-            <span class="token keyword">if</span><span class="token punctuation">(</span>nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">+</span>nums<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">==</span> target<span class="token punctuation">)</span>
-            <span class="token keyword">return</span> <span class="token punctuation">{</span>i<span class="token punctuation">,</span>j<span class="token punctuation">}</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-       <span class="token keyword">return</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
-<h3><span id="liang-ci-ha-xi">两次哈希</span></h3><p>对于第一种暴力破解，相当于遍历了所有的两数之和的情况，如果满足就输入，这是很浪费时间的。<br>我们使用哈希来优化：<br>1.unordered_map内部显示机制是hash表，更贴合算法，我们使用unordered_map<br>2.<br><img src="https://img-blog.csdnimg.cn/20200708122710419.jpg#pic_center" alt="让我们一起来看一下算法流程图吧!"></p>
-<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
-<span class="token keyword">public</span><span class="token punctuation">:</span>
-    vector<span class="token operator">&lt;</span>int<span class="token operator">></span><span class="token function">twoSum</span><span class="token punctuation">(</span>vector<span class="token operator">&lt;</span>int<span class="token operator">></span><span class="token operator">&amp;</span> nums<span class="token punctuation">,</span> int target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        unordered_map<span class="token operator">&lt;</span>int<span class="token punctuation">,</span>int<span class="token operator">></span> m<span class="token punctuation">;</span>
-        <span class="token keyword">for</span><span class="token punctuation">(</span>int i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>nums<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>
-            m<span class="token punctuation">[</span>nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">=</span> i<span class="token punctuation">;</span>         <span class="token comment" spellcheck="true">//向map中添加元素</span>
-        <span class="token keyword">for</span><span class="token punctuation">(</span>int i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>nums<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>
-        <span class="token punctuation">{</span>
-            <span class="token keyword">if</span><span class="token punctuation">(</span>m<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>target<span class="token operator">-</span>nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">!=</span>m<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> m<span class="token punctuation">[</span>target<span class="token operator">-</span>nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">!=</span> i<span class="token punctuation">)</span>   
-        <span class="token comment" spellcheck="true">//如果m中存在对应的键值，并且不为i</span>
-                <span class="token keyword">return</span> <span class="token punctuation">{</span>i <span class="token punctuation">,</span> m<span class="token punctuation">[</span>target<span class="token operator">-</span>nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-        <span class="token keyword">return</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
-<h3><span id="yi-ci-ha-xi">一次哈希</span></h3><p>和两次哈希不同的是，在压入的同时完成了查询。<br>那这样会不会漏掉情况呢？是不会的！<br>就好比力的作用是相互的，后面出现了能和前面匹配的数据，前面没找到后面，但是后面可以找到前面的数字。</p>
-<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
-<span class="token keyword">public</span><span class="token punctuation">:</span>
-    vector<span class="token operator">&lt;</span>int<span class="token operator">></span><span class="token function">twoSum</span><span class="token punctuation">(</span>vector<span class="token operator">&lt;</span>int<span class="token operator">></span><span class="token operator">&amp;</span> nums<span class="token punctuation">,</span> int target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        unordered_map<span class="token operator">&lt;</span>int<span class="token punctuation">,</span>int<span class="token operator">></span> m<span class="token punctuation">;</span>
-        <span class="token keyword">for</span><span class="token punctuation">(</span>int i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>nums<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>
-        <span class="token punctuation">{</span>
-            <span class="token keyword">if</span><span class="token punctuation">(</span>m<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>target<span class="token operator">-</span>nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">!=</span>m<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>      <span class="token comment" spellcheck="true">//m中存在对应的键值</span>
-                <span class="token keyword">return</span> <span class="token punctuation">{</span>m<span class="token punctuation">[</span>target<span class="token operator">-</span>nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token punctuation">,</span>i<span class="token punctuation">}</span><span class="token punctuation">;</span>       
-                <span class="token comment" spellcheck="true">//m[target-nums[i]]为已经加入map的元素的索引，所以小于本轮循环中的i，放在前面</span>
-            m<span class="token punctuation">[</span>nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token operator">=</span>i<span class="token punctuation">;</span>       <span class="token comment" spellcheck="true">//向map中添加元素</span>
-        <span class="token punctuation">}</span>
-        <span class="token keyword">return</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
-<h3><span id="san-chong-jie-fa-de-shi-jian-kong-jian-fu-za-du-bi-jiao">三种解法的时间空间复杂度比较</span></h3><h4><span id="shi-me-shi-shi-jian-fu-za-du">什么是时间复杂度？</span></h4><p><label style="color:red"><strong>时间复杂度</strong></label>：<strong>时间复杂度的计算并不是计算程序集体运行的时间，二十算法执行语句的次数</strong></p>
-<h4><span id="shi-me-shi-kong-jian-fu-za-du">什么是空间复杂度？</span></h4><p><label style="color:red"><strong>空间复杂度</strong></label>：<strong>空间复杂度是对一个算法在运行过程中临时占用储存空间大小的量度</strong></p>
-<h4><span id="san-chong-jie-fa-fu-za-du-fen-xi">三种解法复杂度分析</span></h4><p><label style="color:red"><strong>暴力破解</strong></label>：<br>时间复杂度：O(n^2)<br>两层for循环，对于每个元素，耗费O(n)的时间，所以时间复杂度为O(n^2)<br>空间复杂度：O(1)<br><label style="color:red"><strong>二次哈希</strong></label>：<br>时间复杂度：O(n)<br>我们把包含有n个元素的列表遍历两次，由于哈希表将查找时间缩短到O(1)，所以时间复杂度为O(n)<br>空间复杂度：O(n)<br>所需的额外空间取决与哈希表中存储的元素数据，该表中存储了n个元素<br><label style="color:red"><strong>一次哈希</strong></label>：<br>时间复杂度：O(n)<br>我们把包含有n个元素的列表遍历一次，由于哈希表将查找时间缩短到O(1)，所以时间复杂度为O(n)<br>空间复杂度：O(n)<br>所需的额外空间取决与哈希表中存储的元素数据，该表最多需要存储n个元素</p>
-<table>
-<thead>
-<tr>
-<th>算法</th>
-<th>时间复杂度</th>
-<th>空间复杂度</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>暴力破解</td>
-<td>O(n^2)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>二次哈希</td>
-<td>O(n)</td>
-<td>O(n)</td>
-</tr>
-<tr>
-<td>一次哈希</td>
-<td>O(n)</td>
-<td>O(n)</td>
-</tr>
-</tbody></table>
-<h3><span id="yu-dao-de-wen-ti">遇到的问题</span></h3><p>在开始提交的时候没有通过所有样例<br><img src="https://img-blog.csdnimg.cn/20200516170623441.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70" alt="差不多只能拿到一半的分"></p>
-<p>原因是没有添加判断，<label style="color:red"><strong>m.find(target-nums[i]) !=m.end()</strong></label><br>引用具有指定键的元素的位置的迭代器，如果找不到具有键的匹配项，则引用映射中最后一个元素后面的位置。<br>即m.end()，我们需要判断是否查询到值。</p>
-
+                
             </div>
             <hr/>
 
@@ -761,7 +608,7 @@ target = 9
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">梦想成为假面骑士的司祎同学</a>
+                    <a href="/about" rel="external nofollow noreferrer">Siyi(41)</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -771,7 +618,7 @@ target = 9
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://KamenRider41.github.io/2020/07/07/hashtable/">http://KamenRider41.github.io/2020/07/07/hashtable/</a>
+                    <a href="http://KamenRider41.github.io/friends/index.html">http://KamenRider41.github.io/friends/index.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -784,7 +631,7 @@ target = 9
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">梦想成为假面骑士的司祎同学</a>
+                    <a href="/about" target="_blank">Siyi(41)</a>
                     !
                 </span>
             </div>
@@ -808,15 +655,7 @@ target = 9
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/Leetcode/">
-                                    <span class="chip bg-color">Leetcode</span>
-                                </a>
-                            
-                                <a href="/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/">
-                                    <span class="chip bg-color">哈希表</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -982,53 +821,39 @@ target = 9
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/07/09/pyexe/">
+                <a href="/friends/index.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="表白程序怎么发过去呢？好苦恼！">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="friends">
                         
-                        <span class="card-title">表白程序怎么发过去呢？好苦恼！</span>
+                        <span class="card-title">friends</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            将python文件转化成exe文件就可以发过去了，这样就算接收方没有编译软件也可以运行，而且还可以闭源代码，增加神秘感。文内附有表白程序代码和效果，哎，止增笑耳！进来笑笑吧！
+                            
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-09
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-09
+                            </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E9%82%A3%E4%BA%9B%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8%E7%9A%84%E4%BB%A3%E7%A0%81/" class="post-category">
-                                    那些花里胡哨的代码
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Siyi(41)
                             
                         </span>
                     </div>
                 </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/python/">
-                        <span class="chip bg-color">python</span>
-                    </a>
-                    
-                    <a href="/tags/%E8%A1%A8%E7%99%BD%E7%A8%8B%E5%BA%8F/">
-                        <span class="chip bg-color">表白程序</span>
-                    </a>
-                    
-                </div>
+
                 
             </div>
         </div>
@@ -1039,50 +864,34 @@ target = 9
                 本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2020/07/07/hashtable/">
+                <a href="/friends/index.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="什么是hash表呢？">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="friends">
                         
-                        <span class="card-title">什么是hash表呢？</span>
+                        <span class="card-title">friends</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            从题目两数之和为起点，让我们一起来认识哈希吧！本文使用暴力破解，一次哈希，二次哈希分别来解决题目，从比较中认识哈希算法，是入门哈希表好文章呢！！！
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-09
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E7%AE%97%E6%B3%95%E4%B9%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83/" class="post-category">
-                                    算法之从入门到放弃
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Siyi(41)
                             
                         </span>
                     </div>
                 </div>
 
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Leetcode/">
-                        <span class="chip bg-color">Leetcode</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/">
-                        <span class="chip bg-color">哈希表</span>
-                    </a>
-                    
-                </div>
                 
             </div>
         </div>
