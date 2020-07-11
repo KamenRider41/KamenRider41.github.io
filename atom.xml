@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kamenrider41.github.io/"/>
-  <updated>2020-07-10T17:32:37.111Z</updated>
+  <updated>2020-07-11T15:36:17.119Z</updated>
   <id>http://kamenrider41.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>公子世无双，代码永流传</title>
+    <link href="http://kamenrider41.github.io/2020/07/11/repository/"/>
+    <id>http://kamenrider41.github.io/2020/07/11/repository/</id>
+    <published>2020-07-11T15:50:00.000Z</published>
+    <updated>2020-07-11T15:36:17.119Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2&gt;&lt;span id=&quot;wei-shi-me-yao-ba-dai-ma-huo-zhe-zi-yuan-shang-chuan-dao-github&quot;&gt;为什么要把代码或者资源上传到github？&lt;/span&gt;&lt;/h2&gt;&lt;h3&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="github" scheme="http://KamenRider41.github.io/categories/github/"/>
+    
+    
+      <category term="帅得乱七八糟的bug" scheme="http://KamenRider41.github.io/tags/%E5%B8%85%E5%BE%97%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84bug/"/>
+    
+      <category term="ssh-key" scheme="http://KamenRider41.github.io/tags/ssh-key/"/>
+    
+  </entry>
   
   <entry>
     <title>表白程序怎么发过去呢？好苦恼！</title>

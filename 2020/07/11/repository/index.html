@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="表白程序怎么发过去呢？好苦恼！, あなたの可愛い41">
+    <meta name="keywords" content="公子世无双，代码永流传, あなたの可愛い41">
     <meta name="description" content="各位院士请留步0.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>表白程序怎么发过去呢？好苦恼！ | あなたの可愛い41</title>
+    <title>公子世无双，代码永流传 | あなたの可愛い41</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -425,12 +425,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/images/loading8.gif')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/loading7.gif')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">表白程序怎么发过去呢？好苦恼！</h1>
+                    <h1 class="description center-align post-title">公子世无双，代码永流传</h1>
                 </div>
             </div>
         </div>
@@ -550,12 +550,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/python/">
-                                <span class="chip bg-color">python</span>
+                            <a href="/tags/%E5%B8%85%E5%BE%97%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84bug/">
+                                <span class="chip bg-color">帅得乱七八糟的bug</span>
                             </a>
                         
-                            <a href="/tags/%E8%A1%A8%E7%99%BD%E7%A8%8B%E5%BA%8F/">
-                                <span class="chip bg-color">表白程序</span>
+                            <a href="/tags/ssh-key/">
+                                <span class="chip bg-color">ssh-key</span>
                             </a>
                         
                     </div>
@@ -566,8 +566,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E9%82%A3%E4%BA%9B%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8%E7%9A%84%E4%BB%A3%E7%A0%81/" class="post-category">
-                                那些花里胡哨的代码
+                            <a href="/categories/github/" class="post-category">
+                                github
                             </a>
                         
                     </div>
@@ -579,7 +579,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-07-09
+                    2020-07-11
                 </div>
                 
 
@@ -588,7 +588,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    986
+                    1.2k
                 </div>
                 
 
@@ -610,123 +610,44 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1><span id="python-ru-he-sheng-cheng-windows-ke-zhi-xing-de-exe-wen-jian">Python如何生成windows可执行的exe文件</span></h1><h2><span id="wei-shi-me-yao-sheng-cheng-ke-zhi-xing-wen-jian">为什么要生成可执行文件</span></h2><ul>
-<li>不需要安装对应的编程环境</li>
-<li>可以将你的应用闭源</li>
-<li>用户可以方便，快捷的直接使用</li>
-</ul>
-<h2><span id="da-bao-gong-ju">打包工具</span></h2><p><strong>pyinstaller</strong></p>
-<h3><span id="an-zhuang-pyinstaller">安装pyinstaller</span></h3><pre><code>pip install pyinstaller</code></pre><h3><span id="pyinstaller-can-shu-zuo-yong">pyinstaller参数作用</span></h3><ul>
-<li>-F表示生成单个可执行文件</li>
-<li>-D -onedir创建一个目录，包含exe文件，但会依赖很多文件（默认选项）</li>
-<li>-w表示去掉控制台窗口，着在GUI界面时非常有用。不过如果是命令行程序的话那就不能使用这个参数</li>
-<li>-c -console，-nowindowed使用控制台，无界面（默认）</li>
-<li>-p 表示你自己自定义需要加载的类路径，一般情况用不到</li>
-<li>-i 表示可执行文件的图标</li>
-<li>其他参数，可以通过pyinstaller –help查看</li>
-</ul>
-<h2><span id="sheng-cheng-exe-shi-zhan">生成exe实战</span></h2><h3><span id="sheng-cheng-zhi-ling">生成指令</span></h3><p>首先我们通过cd 到达工程目录，然后使用代码</p>
-<pre><code>pyinstaller -Fw --icon=xin.ico love.py</code></pre><p>–icon=xin.ico 是指定生成exe软件的图表，这个xin.ico图标放在工程文件的目录下<br>love.py是要生成exe文件的原python文件</p>
-<h3><span id="sheng-cheng-xiao-guo">生成效果</span></h3><p>指令执行后会生成一个dist文件夹，里面有生成exe文件，然后需要把表白图标也放到这个文件夹下，然后点开exe文件就可以运行了。<br><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200708222028444.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70" alt="生成效果"></p>
-<h3><span id="biao-bai-ruan-jian-xiao-guo">表白软件效果！</span></h3><h4><span id="dian-kai-xiao-guo">点开效果</span></h4><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200708222918849.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="点开效果"></p>
-<h4><span id="dian-ji-x-de-xiao-guo">点击X的效果</span></h4><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200708224723555.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="关是关不掉的"></p>
-<h4><span id="dian-ji-bu-xi-huan-de-xiao-guo">点击不喜欢的效果</span></h4><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200708224841834.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="不喜欢也是不行的"></p>
-<h4><span id="dian-ji-xi-huan-de-xiao-guo">点击喜欢的效果</span></h4><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200708224908511.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="只能点喜欢才能关闭"></p>
-<h3><span id="zong-jie">总结</span></h3><p>除了点喜欢是关闭不了窗口的，给人一种霸道总裁的感觉，真是太棒了！<br>如果妹子使用任务管理器和直接关机来解决，那就直接放弃吧！她不懂浪漫。。。</p>
-<h3><span id="zui-hou-shi-biao-bai-ruan-jian-de-dai-ma">最后是表白软件的代码</span></h3><p>代码其实很简单就是python一个包的使用，还可以用pygame给软件加配乐，但是配乐后生成exe有点小bug还没有解决，如果有同学解决了的可以联系我，我们一起实现男女协调，人人成家呀！！！</p>
-<pre class=" language-python"><code class="language-python"><span class="token keyword">from</span> tkinter <span class="token keyword">import</span> <span class="token operator">*</span>
-<span class="token keyword">from</span> tkinter <span class="token keyword">import</span> messagebox
-
-<span class="token comment" spellcheck="true"># import pygame</span>
-
-
-<span class="token comment" spellcheck="true">#直接点击x的方法</span>
-<span class="token keyword">def</span> <span class="token function">closeWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-   messagebox<span class="token punctuation">.</span>showinfo<span class="token punctuation">(</span>title<span class="token operator">=</span><span class="token string">"先别走啊！"</span><span class="token punctuation">,</span>message<span class="token operator">=</span><span class="token string">"躲得过初一，躲不过十五！"</span><span class="token punctuation">)</span>
-   <span class="token keyword">return</span>
-
-<span class="token comment" spellcheck="true">#点击喜欢后的方法</span>
-<span class="token keyword">def</span> <span class="token function">Love</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token comment" spellcheck="true">#顶级窗口</span>
-    love<span class="token operator">=</span>Toplevel<span class="token punctuation">(</span>window<span class="token punctuation">)</span>
-    love<span class="token punctuation">.</span>geometry<span class="token punctuation">(</span><span class="token string">"240x90+820+400"</span><span class="token punctuation">)</span>
-    love<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">"好巧，我也是"</span><span class="token punctuation">)</span>
-    label<span class="token operator">=</span>Label<span class="token punctuation">(</span>love<span class="token punctuation">,</span>text <span class="token operator">=</span> <span class="token string">"真好"</span><span class="token punctuation">,</span>font <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token string">"微软雅黑"</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-    <span class="token comment" spellcheck="true">#pack 定位</span>
-    label<span class="token punctuation">.</span>pack<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    btn <span class="token operator">=</span> Button <span class="token punctuation">(</span>love <span class="token punctuation">,</span> text <span class="token operator">=</span><span class="token string">"确定"</span><span class="token punctuation">,</span>width <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">,</span>heigh <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">,</span>command<span class="token operator">=</span>closeallwindow<span class="token punctuation">)</span>
-    btn<span class="token punctuation">.</span>pack<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    love<span class="token punctuation">.</span>protocol<span class="token punctuation">(</span><span class="token string">"WM_DELETE_WINDOW"</span><span class="token punctuation">,</span> closelove<span class="token punctuation">)</span>
-
- <span class="token comment" spellcheck="true">#喜欢后的点击x的方法</span>
-<span class="token keyword">def</span> <span class="token function">closelove</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">return</span>
-
-<span class="token comment" spellcheck="true">#点击喜欢后确定的方法</span>
-<span class="token keyword">def</span> <span class="token function">closeallwindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token comment" spellcheck="true">#destory 销毁</span>
-    window<span class="token punctuation">.</span>destroy<span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-<span class="token comment" spellcheck="true">#点击不喜欢的方法</span>
-<span class="token keyword">def</span> nolove <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    no_love <span class="token operator">=</span> Toplevel<span class="token punctuation">(</span>window<span class="token punctuation">)</span>
-    no_love <span class="token punctuation">.</span>geometry<span class="token punctuation">(</span><span class="token string">"240x90+820+400"</span><span class="token punctuation">)</span>
-    no_love<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">"再考虑考虑呗"</span><span class="token punctuation">)</span>
-    label <span class="token operator">=</span> Label<span class="token punctuation">(</span>no_love<span class="token punctuation">,</span>text <span class="token operator">=</span><span class="token string">"麻烦你再想想办法！"</span><span class="token punctuation">,</span>font <span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">"微软雅黑"</span><span class="token punctuation">,</span><span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-    label<span class="token punctuation">.</span>pack <span class="token punctuation">(</span><span class="token punctuation">)</span>
-    btn <span class="token operator">=</span> Button<span class="token punctuation">(</span>no_love<span class="token punctuation">,</span> text<span class="token operator">=</span><span class="token string">"确定"</span><span class="token punctuation">,</span> width<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">,</span> heigh<span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">,</span> command<span class="token operator">=</span>no_love<span class="token punctuation">.</span>destroy<span class="token punctuation">)</span>
-    btn<span class="token punctuation">.</span>pack<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    no_love<span class="token punctuation">.</span>protocol<span class="token punctuation">(</span><span class="token string">"WM_DELETE_WINDOW"</span><span class="token punctuation">,</span> closenolove<span class="token punctuation">)</span>
-
-<span class="token comment" spellcheck="true">#不喜欢再考虑点击x的方法</span>
-<span class="token keyword">def</span> closenolove <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">return</span>
-
-
-<span class="token comment" spellcheck="true">#创建窗口</span>
-window <span class="token operator">=</span>Tk<span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-<span class="token comment" spellcheck="true">#窗口标题</span>
-window <span class="token punctuation">.</span>title <span class="token punctuation">(</span><span class="token string">"你喜欢我吗?"</span><span class="token punctuation">)</span>
-
-<span class="token comment" spellcheck="true">#窗口的大小      中间用x连接</span>
-window<span class="token punctuation">.</span>geometry<span class="token punctuation">(</span><span class="token string">"580x710"</span><span class="token punctuation">)</span>
-
-<span class="token comment" spellcheck="true">#窗口的位置  几何</span>
-window<span class="token punctuation">.</span>geometry<span class="token punctuation">(</span><span class="token string">"+560+150"</span><span class="token punctuation">)</span>
-
-<span class="token comment" spellcheck="true">#protocol 用户关闭窗口触发的事件</span>
-window<span class="token punctuation">.</span>protocol <span class="token punctuation">(</span><span class="token string">"WM_DELETE_WINDOW"</span><span class="token punctuation">,</span>closeWindow<span class="token punctuation">)</span>
-
-<span class="token comment" spellcheck="true">#标签控件</span>
-label<span class="token operator">=</span>Label<span class="token punctuation">(</span>window<span class="token punctuation">,</span>text<span class="token operator">=</span><span class="token string">"hey 41！"</span><span class="token punctuation">,</span>font<span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">"微软雅黑"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>fg<span class="token operator">=</span><span class="token string">"red"</span><span class="token punctuation">)</span>
-<span class="token comment" spellcheck="true">#定位  网格布局</span>
-label<span class="token punctuation">.</span>grid <span class="token punctuation">(</span>sticky<span class="token operator">=</span>W <span class="token punctuation">)</span>
-<span class="token comment" spellcheck="true">#标签控件</span>
-label1<span class="token operator">=</span>Label<span class="token punctuation">(</span>window<span class="token punctuation">,</span>text<span class="token operator">=</span><span class="token string">"41，你喜欢我吗？"</span><span class="token punctuation">,</span>font<span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">"微软雅黑"</span><span class="token punctuation">,</span><span class="token number">25</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-<span class="token comment" spellcheck="true">#定位  网格布局    sticky对齐方式 E W S  N</span>
-label1<span class="token punctuation">.</span>grid <span class="token punctuation">(</span>row<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>column<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>sticky<span class="token operator">=</span>E<span class="token punctuation">)</span>
-
-<span class="token comment" spellcheck="true">#显示图片</span>
-photo<span class="token operator">=</span>PhotoImage<span class="token punctuation">(</span>file<span class="token operator">=</span><span class="token string">"./表白图标.png"</span><span class="token punctuation">)</span>
-imageLable<span class="token operator">=</span>Label<span class="token punctuation">(</span>window<span class="token punctuation">,</span>image <span class="token operator">=</span> photo <span class="token punctuation">)</span>
-imageLable<span class="token punctuation">.</span>grid<span class="token punctuation">(</span>row <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">,</span>columnspan <span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">)</span>
-
-<span class="token comment" spellcheck="true">#按钮控件</span>
-btn <span class="token operator">=</span> Button <span class="token punctuation">(</span>window<span class="token punctuation">,</span>text <span class="token operator">=</span><span class="token string">"喜欢"</span><span class="token punctuation">,</span>width <span class="token operator">=</span> <span class="token number">15</span><span class="token punctuation">,</span>heigh <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">,</span>command <span class="token operator">=</span> Love<span class="token punctuation">)</span>
-btn<span class="token punctuation">.</span>grid<span class="token punctuation">(</span>row <span class="token operator">=</span><span class="token number">3</span> <span class="token punctuation">,</span>column <span class="token operator">=</span><span class="token number">0</span> <span class="token punctuation">,</span>sticky <span class="token operator">=</span> W <span class="token punctuation">)</span>
-
-btn1<span class="token operator">=</span>Button <span class="token punctuation">(</span>window<span class="token punctuation">,</span>text <span class="token operator">=</span><span class="token string">"不喜欢"</span><span class="token punctuation">,</span>command <span class="token operator">=</span>nolove<span class="token punctuation">)</span>
-btn1<span class="token punctuation">.</span>grid<span class="token punctuation">(</span>row<span class="token operator">=</span><span class="token number">3</span><span class="token punctuation">,</span>column<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>sticky <span class="token operator">=</span> E<span class="token punctuation">,</span><span class="token punctuation">)</span>
-
-<span class="token comment" spellcheck="true"># file=r'D:\Graduation project\untitled5\love.mp3'</span>
-<span class="token comment" spellcheck="true"># pygame.mixer.init()</span>
-<span class="token comment" spellcheck="true"># track=pygame.mixer.music.load(file)</span>
-<span class="token comment" spellcheck="true"># pygame.mixer.music.play()</span>
-
-<span class="token comment" spellcheck="true">#显示窗口  消息循环</span>
-window <span class="token punctuation">.</span>mainloop<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200709121440737.PNG#pic_center" alt="男女协调，人人成家！"><br>如果对大家有帮助，或者博得了女朋友一笑，大家可以打赏我哦！<br><label style="color:green">最后助大家早日脱单！</label></p>
+                <h2><span id="wei-shi-me-yao-ba-dai-ma-huo-zhe-zi-yuan-shang-chuan-dao-github">为什么要把代码或者资源上传到github？</span></h2><h3><span id="1-fen-xiang-zi-ji-de-dai-ma-mian-shi-ke-yi-zhan-shi-zi-ji">1.分享自己的代码，面试可以展示自己</span></h3><h3><span id="2-ke-yi-zuo-chuang-tu-github-zi-dai-cdn-jia-su">2.可以做床图，github自带cdn加速</span></h3><pre class=" language-bash"><code class="language-bash">https://cdn.jsdelivr.net/gh/github用户名/github账号中的仓库名/资源名</code></pre>
+<p>用这个方法访问资源可以加速，这个在博客后期优化中可以使用，床图就是把图资源全部放到一个仓库，然后从这个仓库中用cdn来调用这些资源</p>
+<h3><span id="3-ke-yi-bu-shu-wo-men-de-bo-ke">3.可以部署我们的博客</span></h3><p>在这里就不得不说说github，码云gitee和Coding了，这三个都是可以部署的，我首先接触到的是github，github部署在国内访问就是很慢，后面换到码云gitee上，速度明显变快了。大概就是国内有点卡github吧！部署方式是差不多的，在gitee上添加一个ssh密钥，这个ssh和添加到github上面的一样，也就是说我们可以同时部署到github，gitee和Coding上面，我目前只部署过github和gitee，感觉gitee够用了，就没有在Coding上面部署了。</p>
+<p>连接好ssh后，直接使用<strong>hexo s</strong>本地查看博客无误后，可以直接用<strong>hexo g -d</strong>来部署<br>ssh如何创建后面提到</p>
+<h2><span id="zheng-chang-shang-chuan-de-liu-cheng">正常上传的流程</span></h2><h3><span id="yi-chuang-jian-yi-ge-cang-ku-bing-fu-zhi-cang-ku-https-di-zhi">一.创建一个仓库并复制仓库HTTPS地址</span></h3><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200711224247243.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70" alt="记得勾选init README"><br><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200711224339978.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70" alt="绿色得Code下面复制HTTPS地址"></p>
+<h3><span id="er-sheng-cheng-ssh-mi-yao-lai-guan-lian-github-he-you-xiang">二.生成ssh密钥，来关联github和邮箱</span></h3><h4><span id="1-jian-cha-dian-nao-shi-fou-yi-jing-you-ssh-key">1.检查电脑是否已经有ssh key</span></h4><pre class=" language-bash"><code class="language-bash"><span class="token function">cd</span> ~/.ssh
+<span class="token function">ls</span></code></pre>
+<p>如果<strong>id_rsa.pub</strong>或<strong>id_dsa.pub</strong>文件，可以跳过步骤2，直接进入步骤3.</p>
+<h4><span id="2-shou-xian-shi-yong-git-config-ming-ling-she-zhi-yong-hu-ming-he-di-zhi-bing-chan-sheng-rsa-key">2.首先，使用git config命令设置用户名和地址并产生rsa key</span></h4><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> config --global user.name <span class="token string">"设置的用户名"</span>
+<span class="token function">git</span> config --global user.email <span class="token string">"设置的邮件地址"</span>
+ssh-keygen -t rsa -C <span class="token string">"设置的邮件地址"</span></code></pre>
+<p>接着又会提示你输入两次密码（该密码是你push文件的时候要输入的密码，而不是github管理者的密码），当然，你也可以不输入密码，直接按回车。那么push的时候就不需要输入密码，直接提交到github上了<br>然后在<strong>C盘user中.ssh文件中可以找到id_rsa.pub文件</strong>，复制里面的内容稍后使用</p>
+<h3><span id="san-zai-github-zhong-tian-jia-ssh-mi-yao">三.在github中添加ssh密钥</span></h3><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200711230117454.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70" alt="点击setting"></p>
+<p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/202007112301294.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70" alt="点击SSH and GPG keys"></p>
+<p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200711230137877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70" alt="点击New SSH key"></p>
+<p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200711230146770.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70" alt="将复制的文件内容填入，title随意，然后Add"></p>
+<h3><span id="si-ce-shi-ssh-key">四.测试SSH key</span></h3><pre class=" language-bash"><code class="language-bash"><span class="token function">ssh</span> -T git@github.com</code></pre>
+<p>当你输入以上代码时，会有一段警告代码，如：</p>
+<pre class=" language-bash"><code class="language-bash">The authenticity of host <span class="token string">'github.com (207.97.227.239)'</span> can't be established.
+<span class="token comment" spellcheck="true"># RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.</span>
+<span class="token comment" spellcheck="true"># Are you sure you want to continue connecting (yes/no)?</span></code></pre>
+<p>这是正常的，你输入 yes 回车既可。如果你创建 SSH key 的时候设置了密码，接下来就会提示你输入密码，如：</p>
+<pre class=" language-bash"><code class="language-bash">Enter passphrase <span class="token keyword">for</span> key <span class="token string">'/c/Users/Administrator/.ssh/id_rsa'</span><span class="token keyword">:</span></code></pre>
+<p>当然如果你密码输错了，会再要求你输入，知道对了为止。<br>注意：输入密码时如果输错一个字就会不正确，使用删除键是无法更正的。<br>密码正确后你会看到下面这段话，如：</p>
+<pre class=" language-bash"><code class="language-bash">Hi username<span class="token operator">!</span> You've successfully authenticated, but GitHub does not
+<span class="token comment" spellcheck="true"># provide shell access.</span></code></pre>
+<p>如果用户名是正确的,你已经成功设置SSH密钥。如果你看到 “access denied” ，者表示拒绝访问，那么你就需要使用 https 去访问，而不是 SSH 。</p>
+<h3><span id="wu-ben-di-cao-zuo">五.本地操作</span></h3><p>成功安装git后，右键项目，右键会出现两个新选项，分别是Git GUI Here和Git Bash Here，这里我们选择Git Bash Here，进入操作界面<br>输入以下代码</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> clone <span class="token string">"之前仓库复制的地址"</span></code></pre>
+<p>这个步骤之后本地项目文件夹下面就会多出一个文件夹，这个文件夹的名字就是仓库的名字，然后把需要上传的文件全部复制到这个文件夹中<br>通过命令cd 进入该文件夹，然后输入以下代码</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> add <span class="token keyword">.</span> <span class="token comment" spellcheck="true">#把文佳佳下面的文件都添加进来</span>
+<span class="token function">git</span> commit -m <span class="token string">"提交信息"</span> <span class="token comment" spellcheck="true">#提交信息相当于注释，可以是"first commit"</span>
+<span class="token function">git</span> push -u origin master <span class="token comment" spellcheck="true">#把本地仓库push到github上面，需要输入github账号和密码</span></code></pre>
+<h2><span id="yu-dao-de-bug">遇到的bug</span></h2><p>我当时是push的时候报错了，不知道是什么原因，最后发现问题是不小心删除了本地仓库的README.md文件，就是本地仓库如果没有github仓库中的readme文件是没有办法push的，当时第一次上传完觉得这个文件没用就删掉了，后面第二次上传就一直报错。<br>我们可以通过以下指令进行<strong>添加readme.md文件到本地仓库。</strong></p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> pull --rebase origin master</code></pre>
+<p><strong>然后调用push即可</strong></p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> push origin master</code></pre>
+<p><strong>最后就上传成功了！解决了BUG！！！</strong></p>
 
             </div>
             <hr/>
@@ -752,7 +673,7 @@ window <span class="token punctuation">.</span>mainloop<span class="token punctu
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://KamenRider41.github.io/2020/07/09/pyexe/">http://KamenRider41.github.io/2020/07/09/pyexe/</a>
+                    <a href="http://KamenRider41.github.io/2020/07/11/repository/">http://KamenRider41.github.io/2020/07/11/repository/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -790,12 +711,12 @@ window <span class="token punctuation">.</span>mainloop<span class="token punctu
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/python/">
-                                    <span class="chip bg-color">python</span>
+                                <a href="/tags/%E5%B8%85%E5%BE%97%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84bug/">
+                                    <span class="chip bg-color">帅得乱七八糟的bug</span>
                                 </a>
                             
-                                <a href="/tags/%E8%A1%A8%E7%99%BD%E7%A8%8B%E5%BA%8F/">
-                                    <span class="chip bg-color">表白程序</span>
+                                <a href="/tags/ssh-key/">
+                                    <span class="chip bg-color">ssh-key</span>
                                 </a>
                             
                         </div>
@@ -1226,9 +1147,10 @@ window <span class="token punctuation">.</span>mainloop<span class="token punctu
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2020/07/11/repository/">
                     <div class="card-image">
@@ -1245,9 +1167,9 @@ window <span class="token punctuation">.</span>mainloop<span class="token punctu
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-11
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-11
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1260,6 +1182,7 @@ window <span class="token punctuation">.</span>mainloop<span class="token punctu
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1282,30 +1205,30 @@ window <span class="token punctuation">.</span>mainloop<span class="token punctu
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/07/07/hashtable/">
+                <a href="/2020/07/09/pyexe/">
                     <div class="card-image">
                         
-                        <img src="/images/loading.gif" data-original="/images/loading5.gif" class="responsive-img" alt="什么是hash表呢？">
+                        <img src="/images/loading.gif" data-original="/images/loading8.gif" class="responsive-img" alt="表白程序怎么发过去呢？好苦恼！">
                         
-                        <span class="card-title">什么是hash表呢？</span>
+                        <span class="card-title">表白程序怎么发过去呢？好苦恼！</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            从题目两数之和为起点，让我们一起来认识哈希吧！本文使用暴力破解，一次哈希，二次哈希分别来解决题目，从比较中认识哈希算法，是入门哈希表好文章呢！！！
+                            将python文件转化成exe文件就可以发过去了，这样就算接收方没有编译软件也可以运行，而且还可以闭源代码，增加神秘感。文内附有表白程序代码和效果，哎，止增笑耳！进来笑笑吧！
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-09
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%AE%97%E6%B3%95%E4%B9%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83/" class="post-category">
-                                    算法之从入门到放弃
+                            <a href="/categories/%E9%82%A3%E4%BA%9B%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8%E7%9A%84%E4%BB%A3%E7%A0%81/" class="post-category">
+                                    那些花里胡哨的代码
                                 </a>
                             
                             
@@ -1315,12 +1238,12 @@ window <span class="token punctuation">.</span>mainloop<span class="token punctu
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Leetcode/">
-                        <span class="chip bg-color">Leetcode</span>
+                    <a href="/tags/python/">
+                        <span class="chip bg-color">python</span>
                     </a>
                     
-                    <a href="/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/">
-                        <span class="chip bg-color">哈希表</span>
+                    <a href="/tags/%E8%A1%A8%E7%99%BD%E7%A8%8B%E5%BA%8F/">
+                        <span class="chip bg-color">表白程序</span>
                     </a>
                     
                 </div>
