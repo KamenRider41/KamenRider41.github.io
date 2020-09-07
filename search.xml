@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>CCF2020-09月刷题汇总</title>
+      <link href="/2020/09/07/ccf202009/"/>
+      <url>/2020/09/07/ccf202009/</url>
+      
+        <content type="html"><![CDATA[<h1><span id="ccf-shua-ti-bo-ke-hui-zong">CCF刷题博客汇总</span></h1><h2><span id="xie-zai-qian-mian">写在前面</span></h2><p>CCF的第二题基本都是写要用到STL容器的题目，也就是语法题，努力还是可以拿到的<br>CCF的第三题分为<br>1.大模拟题(这个没办法，只有多写才可以在现场做出来)，淦，题目看不懂就0分；<br>2.文本处理-字符串处理，这个用到find()，replace()，erase()，substr()，大概率是拿不了满分的，坑太多，但上面三个函数应该能搞30分吧，可恶，好难啊！<br><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200907191435778.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="孤独呀！"></p><h2><span id="hui-zong-de-ti-mu">汇总的题目</span></h2><p><a href="https://kamenrider41.gitee.io/2020/09/03/xiaoshukongzhi/" target="_blank" rel="noopener">C++中的小数位数控制和有效数字控制</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/03/minglinghangxuanxiang/" target="_blank" rel="noopener">CCF命令行选项—初识sstream和getline()</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/03/huishouzhanxuanzhi/" target="_blank" rel="noopener">CCF回收站选址—map与结构体的结合使用+复习STL-map</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/03/xueshengpaidui/" target="_blank" rel="noopener">CCF学生排队—复习STL-vector，vector增删真的方便</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/04/zifuchuanpipei/" target="_blank" rel="noopener">CCF字符串匹配—String::find()&amp;&amp; tolower() </a></p><p><a href="https://kamenrider41.gitee.io/2020/09/04/gonggongyaoshihe/" target="_blank" rel="noopener">CCF公共钥匙盒—优先队列真的很棒！</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/04/xiaomingfangxue/" target="_blank" rel="noopener">CCF小明放学—震惊，小明放学竟用一维数学模型解决！</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/04/pengzhuangdexiaoqiu/" target="_blank" rel="noopener">CCF碰撞的小球—我的小球碰撞不反弹，你怕不怕？</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/05/jihejingjia/" target="_blank" rel="noopener">CCF集合竞价—STL-set&amp;&amp;STL-vector&amp;&amp;sort()</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/05/jieri/" target="_blank" rel="noopener">CCF节日—注意当月第一天超过目标星期的情况</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/05/mobanshengchengxitong/" target="_blank" rel="noopener">CCF模板生成系统—字符串都有替身了，木大木大木大！</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/05/huatu/" target="_blank" rel="noopener">CCF画图—一个平平无奇的搜索题bfs</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/05/lujingjiexi/" target="_blank" rel="noopener">CCF路径解析—String::find()&amp;&amp;erase()</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/06/markdown/" target="_blank" rel="noopener">CCFMarkdown—用到了状态机的思想</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/06/quanxianchaxun/" target="_blank" rel="noopener">CCF权限查询—解释一下什么是“大力出奇迹”</a></p><p><a href="https://kamenrider41.gitee.io/2020/09/06/lushichuangshuo/" target="_blank" rel="noopener">CCF炉石传说—谁说玩游戏对学习没帮助的？</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CCF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CCF炉石传说---谁说玩游戏对学习没帮助的？</title>
       <link href="/2020/09/06/lushichuangshuo/"/>
       <url>/2020/09/06/lushichuangshuo/</url>
@@ -203,9 +228,9 @@
       
         <tags>
             
-            <tag> STL-set </tag>
-            
             <tag> STL-vector </tag>
+            
+            <tag> STL-set </tag>
             
             <tag> algorithm </tag>
             
