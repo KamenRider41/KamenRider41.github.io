@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kamenrider41.github.io/"/>
-  <updated>2020-09-15T06:54:35.317Z</updated>
+  <updated>2020-10-18T10:57:29.395Z</updated>
   <id>http://kamenrider41.github.io/</id>
   
   <author>
@@ -15,6 +15,145 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>湖南大学通信系一班 “学习习近平总书记来校考察调研时的重要讲话精神”团课活动与团代表选举大会</title>
+    <link href="http://kamenrider41.github.io/2020/10/18/HUN-20TX-1/"/>
+    <id>http://kamenrider41.github.io/2020/10/18/HUN-20TX-1/</id>
+    <published>2020-10-18T11:00:00.000Z</published>
+    <updated>2020-10-18T10:57:29.395Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="学生工作" scheme="http://KamenRider41.github.io/categories/%E5%AD%A6%E7%94%9F%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="团支部大会" scheme="http://KamenRider41.github.io/tags/%E5%9B%A2%E6%94%AF%E9%83%A8%E5%A4%A7%E4%BC%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手把手教学，实现两层神经网络(在b站有辅助视频，视频非原创)</title>
+    <link href="http://kamenrider41.github.io/2020/10/07/two-layer-nn/"/>
+    <id>http://kamenrider41.github.io/2020/10/07/two-layer-nn/</id>
+    <published>2020-10-07T04:00:00.000Z</published>
+    <updated>2020-10-18T11:48:06.634Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="神经网络" scheme="http://KamenRider41.github.io/categories/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="两层神经网络" scheme="http://KamenRider41.github.io/tags/%E4%B8%A4%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最简单的pycharm专业版2089方法---不是之一</title>
+    <link href="http://kamenrider41.github.io/2020/10/02/pycharm-activation/"/>
+    <id>http://kamenrider41.github.io/2020/10/02/pycharm-activation/</id>
+    <published>2020-10-02T04:00:00.000Z</published>
+    <updated>2020-10-18T11:23:39.836Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="代码工具" scheme="http://KamenRider41.github.io/categories/%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="pycharm" scheme="http://KamenRider41.github.io/tags/pycharm/"/>
+    
+      <category term="激活" scheme="http://KamenRider41.github.io/tags/%E6%BF%80%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>黑客从入门到入狱---一些基本的命令</title>
+    <link href="http://kamenrider41.github.io/2020/10/01/hack-simple/"/>
+    <id>http://kamenrider41.github.io/2020/10/01/hack-simple/</id>
+    <published>2020-10-01T13:00:00.000Z</published>
+    <updated>2020-10-18T11:39:18.085Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="黑客从入门到入狱" scheme="http://KamenRider41.github.io/categories/%E9%BB%91%E5%AE%A2%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E7%8B%B1/"/>
+    
+    
+      <category term="入门命令" scheme="http://KamenRider41.github.io/tags/%E5%85%A5%E9%97%A8%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Leetcode2020-9月刷题汇总---如何搬起脚边的砖块？</title>
+    <link href="http://kamenrider41.github.io/2020/09/28/leetcode-20-09/"/>
+    <id>http://kamenrider41.github.io/2020/09/28/leetcode-20-09/</id>
+    <published>2020-09-28T04:00:00.000Z</published>
+    <updated>2020-10-18T11:11:16.097Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Leetcode" scheme="http://KamenRider41.github.io/categories/Leetcode/"/>
+    
+    
+      <category term="简单题" scheme="http://KamenRider41.github.io/tags/%E7%AE%80%E5%8D%95%E9%A2%98/"/>
+    
+      <category term="剑指offer" scheme="http://KamenRider41.github.io/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+  </entry>
   
   <entry>
     <title>SCI论文introduction常用句式超全总结</title>
@@ -432,149 +571,6 @@
     
     
       <category term="STL-vector" scheme="http://KamenRider41.github.io/tags/STL-vector/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF回收站选址---map与结构体的结合使用+复习STL-map</title>
-    <link href="http://kamenrider41.github.io/2020/09/03/huishouzhanxuanzhi/"/>
-    <id>http://kamenrider41.github.io/2020/09/03/huishouzhanxuanzhi/</id>
-    <published>2020-09-03T06:00:00.000Z</published>
-    <updated>2020-09-07T05:49:05.787Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1&gt;&lt;span id=&quot;ccf-201912-2&quot;&gt;CCF-201912-2&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
-    
-    
-      <category term="STL-map" scheme="http://KamenRider41.github.io/tags/STL-map/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF命令行选项---初识sstream和getline()</title>
-    <link href="http://kamenrider41.github.io/2020/09/03/minglinghangxuanxiang/"/>
-    <id>http://kamenrider41.github.io/2020/09/03/minglinghangxuanxiang/</id>
-    <published>2020-09-03T05:00:00.000Z</published>
-    <updated>2020-09-07T05:46:51.271Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1&gt;&lt;span id=&quot;ccf-201403-3&quot;&gt;CCF-201403-3&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
-    
-    
-      <category term="String" scheme="http://KamenRider41.github.io/tags/String/"/>
-    
-      <category term="sstream" scheme="http://KamenRider41.github.io/tags/sstream/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C++中的小数位数控制和有效数字控制</title>
-    <link href="http://kamenrider41.github.io/2020/09/03/xiaoshukongzhi/"/>
-    <id>http://kamenrider41.github.io/2020/09/03/xiaoshukongzhi/</id>
-    <published>2020-09-03T04:00:00.000Z</published>
-    <updated>2020-09-07T05:48:54.888Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1&gt;&lt;span id=&quot;c-zhong-de-xiao-shu-wei-shu-kong-zhi-he-you-xiao-shu-zi-kong-zhi&quot;&gt;C++中的小数位数控制和有效数字控制&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
-    
-    
-      <category term="c++小数位数控制" scheme="http://KamenRider41.github.io/tags/c-%E5%B0%8F%E6%95%B0%E4%BD%8D%E6%95%B0%E6%8E%A7%E5%88%B6/"/>
-    
-      <category term="c++有效数字控制" scheme="http://KamenRider41.github.io/tags/c-%E6%9C%89%E6%95%88%E6%95%B0%E5%AD%97%E6%8E%A7%E5%88%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>公子世无双，代码永流传</title>
-    <link href="http://kamenrider41.github.io/2020/07/11/repository/"/>
-    <id>http://kamenrider41.github.io/2020/07/11/repository/</id>
-    <published>2020-07-11T15:50:00.000Z</published>
-    <updated>2020-09-07T11:28:19.783Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2&gt;&lt;span id=&quot;wei-shi-me-yao-ba-dai-ma-huo-zhe-zi-yuan-shang-chuan-dao-github&quot;&gt;为什么要把代码或者资源上传到github？&lt;/span&gt;&lt;/h2&gt;&lt;h3&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="github" scheme="http://KamenRider41.github.io/categories/github/"/>
-    
-    
-      <category term="帅得乱七八糟的bug" scheme="http://KamenRider41.github.io/tags/%E5%B8%85%E5%BE%97%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84bug/"/>
-    
-      <category term="ssh-key" scheme="http://KamenRider41.github.io/tags/ssh-key/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>表白程序怎么发过去呢？好苦恼！</title>
-    <link href="http://kamenrider41.github.io/2020/07/09/pyexe/"/>
-    <id>http://kamenrider41.github.io/2020/07/09/pyexe/</id>
-    <published>2020-07-08T16:00:00.000Z</published>
-    <updated>2020-09-07T11:28:13.272Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1&gt;&lt;span id=&quot;python-ru-he-sheng-cheng-windows-ke-zhi-xing-de-exe-wen-jian&quot;&gt;Python如何生成windows可执行的exe文件&lt;/span&gt;&lt;/h1&gt;&lt;h2&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="那些花里胡哨的代码" scheme="http://KamenRider41.github.io/categories/%E9%82%A3%E4%BA%9B%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8%E7%9A%84%E4%BB%A3%E7%A0%81/"/>
-    
-    
-      <category term="python" scheme="http://KamenRider41.github.io/tags/python/"/>
-    
-      <category term="表白程序" scheme="http://KamenRider41.github.io/tags/%E8%A1%A8%E7%99%BD%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   
