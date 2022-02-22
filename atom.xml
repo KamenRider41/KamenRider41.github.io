@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kamenrider41.gitee.io/"/>
-  <updated>2022-02-22T12:02:19.246Z</updated>
+  <updated>2022-02-22T13:19:04.078Z</updated>
   <id>http://kamenrider41.gitee.io/</id>
   
   <author>
@@ -17,11 +17,231 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Apifox-在所有接口中添加登录后获取的token(有图示)</title>
+    <link href="http://kamenrider41.gitee.io/2022/02/20/apifoxtoken/"/>
+    <id>http://kamenrider41.gitee.io/2022/02/20/apifoxtoken/</id>
+    <published>2022-02-20T15:00:00.000Z</published>
+    <updated>2022-02-22T13:19:04.078Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="后端" scheme="http://KamenRider41.gitee.io/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    
+      <category term="端口测试" scheme="http://KamenRider41.gitee.io/tags/%E7%AB%AF%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue2和vue3封装echarts的比较(vue3深度监听)</title>
+    <link href="http://kamenrider41.gitee.io/2022/02/09/vueEcharts/"/>
+    <id>http://kamenrider41.gitee.io/2022/02/09/vueEcharts/</id>
+    <published>2022-02-09T15:00:00.000Z</published>
+    <updated>2022-02-22T13:19:39.311Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="http://KamenRider41.gitee.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="echarts" scheme="http://KamenRider41.gitee.io/tags/echarts/"/>
+    
+      <category term="vue" scheme="http://KamenRider41.gitee.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于我黑进湖大体育场预定系统,最后被封号的小事！</title>
+    <link href="http://kamenrider41.gitee.io/2021/12/11/hnuhack/"/>
+    <id>http://kamenrider41.gitee.io/2021/12/11/hnuhack/</id>
+    <published>2021-12-11T13:00:00.000Z</published>
+    <updated>2022-02-22T12:42:12.653Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="黑客从入门到入狱" scheme="http://KamenRider41.gitee.io/categories/%E9%BB%91%E5%AE%A2%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E7%8B%B1/"/>
+    
+    
+      <category term="Fiddle抓包" scheme="http://KamenRider41.gitee.io/tags/Fiddle%E6%8A%93%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6学习-浅层次梳理，点到为止</title>
+    <link href="http://kamenrider41.gitee.io/2021/11/11/es6/"/>
+    <id>http://kamenrider41.gitee.io/2021/11/11/es6/</id>
+    <published>2021-11-11T15:00:00.000Z</published>
+    <updated>2022-02-22T13:24:34.337Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="http://KamenRider41.gitee.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="es6" scheme="http://KamenRider41.gitee.io/tags/es6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手写JavaScript数组api(彻底弄懂数组api！)</title>
+    <link href="http://kamenrider41.gitee.io/2021/10/14/javascriptArrayApi/"/>
+    <id>http://kamenrider41.gitee.io/2021/10/14/javascriptArrayApi/</id>
+    <published>2021-10-14T15:00:00.000Z</published>
+    <updated>2022-02-22T13:20:31.913Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="http://KamenRider41.gitee.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="手写数组api" scheme="http://KamenRider41.gitee.io/tags/%E6%89%8B%E5%86%99%E6%95%B0%E7%BB%84api/"/>
+    
+      <category term="Javascript" scheme="http://KamenRider41.gitee.io/tags/Javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>湖南大学程序设计实训训练作业二汇总篇</title>
+    <link href="http://kamenrider41.gitee.io/2021/07/14/hnuHomework2/"/>
+    <id>http://kamenrider41.gitee.io/2021/07/14/hnuHomework2/</id>
+    <published>2021-07-14T15:00:00.000Z</published>
+    <updated>2022-02-22T13:13:21.813Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="助教生涯" scheme="http://KamenRider41.gitee.io/categories/%E5%8A%A9%E6%95%99%E7%94%9F%E6%B6%AF/"/>
+    
+    
+      <category term="乱七八糟的作业" scheme="http://KamenRider41.gitee.io/tags/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84%E4%BD%9C%E4%B8%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>湖南大学程序设计实训训练作业一汇总篇</title>
+    <link href="http://kamenrider41.gitee.io/2021/07/08/hnuHomework1/"/>
+    <id>http://kamenrider41.gitee.io/2021/07/08/hnuHomework1/</id>
+    <published>2021-07-08T15:00:00.000Z</published>
+    <updated>2022-02-22T13:12:46.303Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="助教生涯" scheme="http://KamenRider41.gitee.io/categories/%E5%8A%A9%E6%95%99%E7%94%9F%E6%B6%AF/"/>
+    
+    
+      <category term="乱七八糟的作业" scheme="http://KamenRider41.gitee.io/tags/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84%E4%BD%9C%E4%B8%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>matlab也能用来机器学习-手把手教你玩分类学习工具箱(ROC曲线,混淆矩阵一键生成)</title>
+    <link href="http://kamenrider41.gitee.io/2021/06/15/matlab/"/>
+    <id>http://kamenrider41.gitee.io/2021/06/15/matlab/</id>
+    <published>2021-06-15T15:00:00.000Z</published>
+    <updated>2022-02-22T13:52:01.316Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="神经网络" scheme="http://KamenRider41.gitee.io/categories/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="matlab" scheme="http://KamenRider41.gitee.io/tags/matlab/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CCF CSP历届真题前两题(更新至2021.04)</title>
     <link href="http://kamenrider41.gitee.io/2021/04/15/ccf2/"/>
     <id>http://kamenrider41.gitee.io/2021/04/15/ccf2/</id>
     <published>2021-04-15T11:00:00.000Z</published>
-    <updated>2022-02-22T12:02:19.246Z</updated>
+    <updated>2022-02-22T12:20:47.254Z</updated>
     
     <summary type="html">
     
@@ -48,7 +268,7 @@
     <link href="http://kamenrider41.gitee.io/2020/11/11/buffer/"/>
     <id>http://kamenrider41.gitee.io/2020/11/11/buffer/</id>
     <published>2020-11-11T15:00:00.000Z</published>
-    <updated>2020-11-12T09:28:35.397Z</updated>
+    <updated>2022-02-22T12:58:56.300Z</updated>
     
     <summary type="html">
     
@@ -104,7 +324,7 @@
     <link href="http://kamenrider41.gitee.io/2020/10/07/two-layer-nn/"/>
     <id>http://kamenrider41.gitee.io/2020/10/07/two-layer-nn/</id>
     <published>2020-10-07T04:00:00.000Z</published>
-    <updated>2020-10-18T11:48:06.634Z</updated>
+    <updated>2022-02-22T12:21:44.124Z</updated>
     
     <summary type="html">
     
@@ -187,7 +407,7 @@
     <link href="http://kamenrider41.gitee.io/2020/09/07/ccf/"/>
     <id>http://kamenrider41.gitee.io/2020/09/07/ccf/</id>
     <published>2020-09-07T11:00:00.000Z</published>
-    <updated>2022-02-22T11:57:30.813Z</updated>
+    <updated>2022-02-22T12:29:38.982Z</updated>
     
     <summary type="html">
     
@@ -349,228 +569,6 @@
       <category term="bfs" scheme="http://KamenRider41.gitee.io/tags/bfs/"/>
     
       <category term="图论" scheme="http://KamenRider41.gitee.io/tags/%E5%9B%BE%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF模板生成系统---字符串都有替身了，木大木大木大！</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/05/mobanshengchengxitong/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/05/mobanshengchengxitong/</id>
-    <published>2020-09-05T06:00:00.000Z</published>
-    <updated>2020-09-07T06:23:37.447Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
-    
-    
-      <category term="String" scheme="http://KamenRider41.gitee.io/tags/String/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF节日---注意当月第一天超过目标星期的情况</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/05/jieri/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/05/jieri/</id>
-    <published>2020-09-05T05:00:00.000Z</published>
-    <updated>2020-09-07T06:22:07.017Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
-    
-    
-      <category term="日期问题" scheme="http://KamenRider41.gitee.io/tags/%E6%97%A5%E6%9C%9F%E9%97%AE%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF集合竞价---STL-set&amp;&amp;STL-vector&amp;&amp;sort()</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/05/jihejingjia/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/05/jihejingjia/</id>
-    <published>2020-09-05T04:00:00.000Z</published>
-    <updated>2020-09-07T06:19:30.570Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
-    
-    
-      <category term="STL-vector" scheme="http://KamenRider41.gitee.io/tags/STL-vector/"/>
-    
-      <category term="STL-set" scheme="http://KamenRider41.gitee.io/tags/STL-set/"/>
-    
-      <category term="algorithm" scheme="http://KamenRider41.gitee.io/tags/algorithm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF碰撞的小球---我的小球碰撞不反弹，你怕不怕？</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/04/pengzhuangdexiaoqiu/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/04/pengzhuangdexiaoqiu/</id>
-    <published>2020-09-04T07:00:00.000Z</published>
-    <updated>2020-09-07T06:16:26.790Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
-    
-    
-      <category term="巧妙思想" scheme="http://KamenRider41.gitee.io/tags/%E5%B7%A7%E5%A6%99%E6%80%9D%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF小明放学---震惊，小明放学竟用一维数学模型解决！</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/04/xiaomingfangxue/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/04/xiaomingfangxue/</id>
-    <published>2020-09-04T06:00:00.000Z</published>
-    <updated>2020-09-07T06:14:28.473Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
-    
-    
-      <category term="图论" scheme="http://KamenRider41.gitee.io/tags/%E5%9B%BE%E8%AE%BA/"/>
-    
-      <category term="数学思维" scheme="http://KamenRider41.gitee.io/tags/%E6%95%B0%E5%AD%A6%E6%80%9D%E7%BB%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF公共钥匙盒---优先队列真的很棒！</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/04/gonggongyaoshihe/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/04/gonggongyaoshihe/</id>
-    <published>2020-09-04T05:00:00.000Z</published>
-    <updated>2022-02-22T08:55:36.566Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
-    
-    
-      <category term="STL-queue" scheme="http://KamenRider41.gitee.io/tags/STL-queue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF字符串匹配---String::find()&amp;&amp; tolower()</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/04/zifuchuanpipei/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/04/zifuchuanpipei/</id>
-    <published>2020-09-04T04:00:00.000Z</published>
-    <updated>2020-09-07T05:56:47.081Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
-    
-    
-      <category term="String" scheme="http://KamenRider41.gitee.io/tags/String/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF学生排队---复习STL-vector，vector增删真的方便</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/03/xueshengpaidui/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/03/xueshengpaidui/</id>
-    <published>2020-09-03T07:00:00.000Z</published>
-    <updated>2020-09-07T05:52:34.850Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
-    
-    
-      <category term="STL-vector" scheme="http://KamenRider41.gitee.io/tags/STL-vector/"/>
     
   </entry>
   

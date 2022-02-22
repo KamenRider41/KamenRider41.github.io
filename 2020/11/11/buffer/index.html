@@ -611,7 +611,7 @@
 <h4><span id="shu-ru-ming-ling-an-zhuang-yi-xie-yong-yu-bian-yi-32-wei-c-cheng-xu-de-ruan-jian-bao">输入命令安装一些用于编译32位c程序的软件包：</span></h4><pre class=" language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt-get</span> update
 <span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> -y lib32z1 libc6-dev-i386 lib32readline6-dev
 <span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> -y python3.6-gdbm gdb</code></pre>
-<h2><span id="cai-niao-chu-xue-ding-dian-she-ji-gan-shou-hei-ke-de-kuai-gan">菜鸟初学，定点射击，感受黑客的快感！</span></h2><h3><span id="guan-bi-di-zhi-kong-jian-sui-ji-hua-nei-cun-di-zhi-bu-yong-cai-shou-dao-qin-lai">关闭地址空间随机化，内存地址不用猜，收到擒来！</span></h3><p>我们要找到地址的返回地址，<strong>用shellcode的地址覆盖着个返回地址来完成入侵</strong>，那么这个空间如果是随机化的就会增加我们的入侵难度，既然是入门，我先不让地址移动，定点射击。</p>
+<h2><span id="cai-niao-chu-xue-ding-dian-she-ji-gan-shou-hei-ke-de-kuai-gan">菜鸟初学，定点射击，感受黑客的快感！</span></h2><h3><span id="guan-bi-di-zhi-kong-jian-sui-ji-hua-nei-cun-di-zhi-bu-yong-cai-shou-dao-qin-lai">关闭地址空间随机化，内存地址不用猜，手到擒来！</span></h3><p>我们要找到地址的返回地址，<strong>用shellcode的地址覆盖着个返回地址来完成入侵</strong>，那么这个空间如果是随机化的就会增加我们的入侵难度，既然是入门，我先不让地址移动，定点射击。</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">sudo</span> sysctl -w kernel.randomize_va_space<span class="token operator">=</span>0</code></pre>
 <p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20201111164526301.png#pic_center" alt="如图"></p>
 <h3><span id="fang-zhi-bin-bash-de-fang-hu-cuo-shi-wo-men-yi-hua-jie-mu-man-tian-guo-hai">防止/bin/bash的防护措施，我们移花接木，瞒天过海</span></h3><p>zsh代替bash 妙啊！</p>
@@ -716,7 +716,7 @@ gcc -m32 -g -z execstack -fno-stack-protector -o stack stack.c
 <p>注意上面的代码，\x??\x??\x??\x??处需要<strong>添上 shellcode 保存在内存中的地址</strong>，因为发生溢出后这个位置刚好可以覆盖返回地址。而 strcpy(buffer+100,shellcode); 这一句又告诉我们，shellcode 保存在 <strong>buffer + 100</strong> 的位置。下面我们将详细介绍如何获得我们需要添加的地址。<br><strong>现在我们要得到 shellcode 在内存中的地址，输入命令进入 gdb 调试：</strong></p>
 <pre class=" language-bash"><code class="language-bash">gdb stack
 disass main</code></pre>
-<p>结果如图：<br>![寻找shellcode的地址第一步]](<a href="https://img-blog.csdnimg.cn/20201111170917823.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" target="_blank" rel="noopener">https://img-blog.csdnimg.cn/20201111170917823.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center</a>)<br>esp 中就是 str 的起始地址，所以我们在地址 0x080484ee 处设置断点。<br>接下来的操作：</p>
+<p>结果如图：<br><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20201111170917823.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="寻找shellcode的地址第一步"><br>esp 中就是 str 的起始地址，所以我们在地址 0x080484ee 处设置断点。<br>接下来的操作：</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 设置断点</span>
 b *0x080484ee
 r
@@ -1286,8 +1286,7 @@ i r <span class="token variable">$esp</span></code></pre>
                 <a href="/2021/04/15/ccf2/">
                     <div class="card-image">
                         
-                        
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/17.jpg" class="responsive-img" alt="CCF CSP历届真题前两题(更新至2021.04)">
+                        <img src="/images/loading.gif" data-original="/images/10.gif" class="responsive-img" alt="CCF CSP历届真题前两题(更新至2021.04)">
                         
                         <span class="card-title">CCF CSP历届真题前两题(更新至2021.04)</span>
                     </div>
@@ -1546,45 +1545,51 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
 
     <footer class="page-footer bg-color">
-    
-    <div class="container row center-align" style="margin-bottom: 0px !important;">
-        <div class="col s12 m8 l8 copy-right">
+  
+        <div class="container row center-align"
+          style="margin-bottom: 0px !important;">
+          <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
-            <span id="year">2020</span>
-            <a href="/about" target="_blank">Siyi(41)</a>
+            <span id="year">
+              2020
+            </span>
+            <a href="/about" target="_blank">
+              Siyi(41)
+            </a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
             
-            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">18.5k</span>&nbsp;字
-            
-            
-            
-            
-            
-            
-            <span id="busuanzi_container_site_pv">
-                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
-                    class="white-color"></span>&nbsp;次
-            </span>
-            
-            
-            <span id="busuanzi_container_site_uv">
-                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
-                    class="white-color"></span>&nbsp;人
-            </span>
-            
-            <br>
-            
-            <br>
-            
-            <span id="icp"><img src="/images/loading.gif" data-original="/medias/icp.png" style="vertical-align: text-bottom;" />
-                <a href="/null" target="_blank">这里是备案！还没想好写什么！</a>
-            </span>
-            
-        </div>
-        <div class="col s12 m4 l4 social-link social-statis"><!--
+              &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span class="white-color">
+                24.4k
+              </span>&nbsp;字
+              
+                
+                  
+                    
+                      
+                        
+                          <span id="busuanzi_container_site_pv">
+                            |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                              class="white-color"></span>&nbsp;次
+                          </span>
+                          
+                            
+                                <br>
+                                
+                                    <br>
+                                    
+                                      <span id="icp"><img
+                                          src="/medias/icp.png"
+                                          style="vertical-align: text-bottom;" />
+                                        <a href="/null" target="_blank">
+                                          这里是备案！还没想好写什么！
+                                        </a>
+                                      </span>
+                                      
+          </div>
+          <div class="col s12 m4 l4 social-link social-statis">
+            <!--
  * @Author: 41
  * @Date: 2020-07-07 08:31:47
  * @LastEditors: 41
@@ -1623,12 +1628,12 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
                         
 
                             
-                                </div>
-    </div>
+                                
+          </div>
+        </div>
 </footer>
 
 <div class="progress-bar"></div>
-
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
