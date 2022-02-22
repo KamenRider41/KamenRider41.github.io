@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="CCF2020-09月刷题汇总, あなたの可愛い41">
+    <meta name="keywords" content="CCF CSP经典题刷题汇总---少年，想走捷径吗？, あなたの可愛い41">
     <meta name="description" content="各位院士请留步0.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>CCF2020-09月刷题汇总 | あなたの可愛い41</title>
+    <title>CCF CSP经典题刷题汇总---少年，想走捷径吗？ | あなたの可愛い41</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -29,142 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="あなたの可愛い41" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<meta name="generator" content="Hexo 4.2.1"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><link rel="alternate" href="/atom.xml" title="あなたの可愛い41" type="application/atom+xml">
+</head>
 
-
- 
-    <style type="text/css" lang="css">
-    #loading-container{
-        position: fixed;
-        top: 0;
-        left: 0;
-        min-height: 100vh;
-        width: 100vw;
-        z-index: 9999;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: #FFF;
-        text-align: center;
-        /* loader页面消失采用渐隐的方式*/
-        -webkit-transition: opacity 1s ease;
-        -moz-transition: opacity 1s ease;
-        -o-transition: opacity 1s ease;
-        transition: opacity 1s ease;
-    }
-    .loading-image{
-        width: 120px;
-        height: 50px;
-        transform: translate(-50%);
-    }
-
-    .loading-image div:nth-child(2) {
-        -webkit-animation: pacman-balls 1s linear 0s infinite;
-        animation: pacman-balls 1s linear 0s infinite
-    }
-
-    .loading-image div:nth-child(3) {
-        -webkit-animation: pacman-balls 1s linear .33s infinite;
-        animation: pacman-balls 1s linear .33s infinite
-    }
-
-    .loading-image div:nth-child(4) {
-        -webkit-animation: pacman-balls 1s linear .66s infinite;
-        animation: pacman-balls 1s linear .66s infinite
-    }
-
-    .loading-image div:nth-child(5) {
-        -webkit-animation: pacman-balls 1s linear .99s infinite;
-        animation: pacman-balls 1s linear .99s infinite
-    }
-
-   .loading-image div:first-of-type {
-        width: 0;
-        height: 0;
-        border: 25px solid #49b1f5;
-        border-right-color: transparent;
-        border-radius: 25px;
-        -webkit-animation: rotate_pacman_half_up .5s 0s infinite;
-        animation: rotate_pacman_half_up .5s 0s infinite;
-    }
-    .loading-image div:nth-child(2) {
-        width: 0;
-        height: 0;
-        border: 25px solid #49b1f5;
-        border-right-color: transparent;
-        border-radius: 25px;
-        -webkit-animation: rotate_pacman_half_down .5s 0s infinite;
-        animation: rotate_pacman_half_down .5s 0s infinite;
-        margin-top: -50px;
-    }
-    @-webkit-keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
-
-    @keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
-
-    @-webkit-keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
-
-    @keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
-
-    @-webkit-keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
-
-    @keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
-
-
-    .loading-image div:nth-child(3),
-    .loading-image div:nth-child(4),
-    .loading-image div:nth-child(5),
-    .loading-image div:nth-child(6){
-        background-color: #49b1f5;
-        width: 15px;
-        height: 15px;
-        border-radius: 100%;
-        margin: 2px;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        transform: translateY(-6.25px);
-        top: 25px;
-        left: 100px;
-    }
-    .loading-text{
-        margin-bottom: 20vh;
-        text-align: center;
-        color: #2c3e50;
-        font-size: 2rem;
-        box-sizing: border-box;
-        padding: 0 10px;
-        text-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    }
-    @media only screen and (max-width: 500px) {
-         .loading-text{
-            font-size: 1.5rem;
-         }
-    }
-    .fadeout {
-        opacity: 0;
-        filter: alpha(opacity=0);
-    }
-    /* logo出现动画 */
-    @-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
-    @keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);}}
- </style>
- <script>
-(function () {
-    const loaded = function(){
-       setTimeout(function(){
-            const loader = document.getElementById("loading-container");
-            loader.className="fadeout" ;//使用渐隐的方法淡出loading page
-            // document.getElementById("body-wrap").style.display="flex";
-            setTimeout(function(){
-                loader.style.display="none";
-            },2500); 
-        },1000);//强制显示loading page 1s  
-    };
-    loaded();
-})()
-</script>
 
  
 <body>
@@ -174,18 +41,7 @@
          document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
      }
     </script> 
-    
-        <div id="loading-container">
-             <p class="loading-text">嘘~  正在从服务器偷取页面 . . . </p> 
-             <div class="loading-image">
-                 <div></div>
-                 <div></div>
-                 <div></div>
-                 <div></div> 
-                 <div></div>
-             </div>
-        </div>
-      
+     
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -573,7 +429,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">CCF2020-09月刷题汇总</h1>
+                    <h1 class="description center-align post-title">CCF CSP经典题刷题汇总---少年，想走捷径吗？</h1>
                 </div>
             </div>
         </div>
@@ -724,7 +580,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    385
+                    536
                 </div>
                 
 
@@ -747,22 +603,106 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1><span id="ccf-shua-ti-bo-ke-hui-zong">CCF刷题博客汇总</span></h1><h2><span id="xie-zai-qian-mian">写在前面</span></h2><p>CCF的第二题基本都是写要用到STL容器的题目，也就是语法题，努力还是可以拿到的<br>CCF的第三题分为<br>1.大模拟题(这个没办法，只有多写才可以在现场做出来)，淦，题目看不懂就0分；<br>2.文本处理-字符串处理，这个用到find()，replace()，erase()，substr()，大概率是拿不了满分的，坑太多，但上面三个函数应该能搞30分吧，可恶，好难啊！<br><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200907191435778.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="孤独呀！"></p>
-<h2><span id="hui-zong-de-ti-mu">汇总的题目</span></h2><p><a href="https://kamenrider41.gitee.io/2020/09/03/xiaoshukongzhi/" target="_blank" rel="noopener">C++中的小数位数控制和有效数字控制</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/03/minglinghangxuanxiang/" target="_blank" rel="noopener">CCF命令行选项—初识sstream和getline()</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/03/huishouzhanxuanzhi/" target="_blank" rel="noopener">CCF回收站选址—map与结构体的结合使用+复习STL-map</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/03/xueshengpaidui/" target="_blank" rel="noopener">CCF学生排队—复习STL-vector，vector增删真的方便</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/04/zifuchuanpipei/" target="_blank" rel="noopener">CCF字符串匹配—String::find()&amp;&amp; tolower() </a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/04/gonggongyaoshihe/" target="_blank" rel="noopener">CCF公共钥匙盒—优先队列真的很棒！</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/04/xiaomingfangxue/" target="_blank" rel="noopener">CCF小明放学—震惊，小明放学竟用一维数学模型解决！</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/04/pengzhuangdexiaoqiu/" target="_blank" rel="noopener">CCF碰撞的小球—我的小球碰撞不反弹，你怕不怕？</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/05/jihejingjia/" target="_blank" rel="noopener">CCF集合竞价—STL-set&amp;&amp;STL-vector&amp;&amp;sort()</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/05/jieri/" target="_blank" rel="noopener">CCF节日—注意当月第一天超过目标星期的情况</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/05/mobanshengchengxitong/" target="_blank" rel="noopener">CCF模板生成系统—字符串都有替身了，木大木大木大！</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/05/huatu/" target="_blank" rel="noopener">CCF画图—一个平平无奇的搜索题bfs</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/05/lujingjiexi/" target="_blank" rel="noopener">CCF路径解析—String::find()&amp;&amp;erase()</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/06/markdown/" target="_blank" rel="noopener">CCFMarkdown—用到了状态机的思想</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/06/quanxianchaxun/" target="_blank" rel="noopener">CCF权限查询—解释一下什么是“大力出奇迹”</a></p>
-<p><a href="https://kamenrider41.gitee.io/2020/09/06/lushichuangshuo/" target="_blank" rel="noopener">CCF炉石传说—谁说玩游戏对学习没帮助的？</a></p>
+<h2><span id="hui-zong-de-ti-mu">汇总的题目</span></h2><table>
+<thead>
+<tr>
+<th>csdn博客</th>
+<th>个人博客</th>
+<th>总而言之</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/112544430" target="_blank" rel="noopener">CCF期末预测之最佳阈值</a></td>
+<td></td>
+<td>低俗题,竟不是暴力</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108386467" target="_blank" rel="noopener">C++中的小数位数控制和有效数字控制</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/03/xiaoshukongzhi/" target="_blank" rel="noopener">C++中的小数位数控制和有效数字控制</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108381836" target="_blank" rel="noopener">CCF命令行选项</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/03/minglinghangxuanxiang/" target="_blank" rel="noopener">CCF命令行选项</a></td>
+<td>初识sstream和getline()</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108378362" target="_blank" rel="noopener">CCF回收站选址</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/03/huishouzhanxuanzhi/" target="_blank" rel="noopener">CCF回收站选址</a></td>
+<td>map与结构体的结合使用+复习STL-map</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108390754" target="_blank" rel="noopener">CCF学生排队</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/03/xueshengpaidui/" target="_blank" rel="noopener">CCF学生排队</a></td>
+<td>复习STL-vector，vector增删真的方便</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108409578" target="_blank" rel="noopener">CCF字符串匹配</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/04/zifuchuanpipei/" target="_blank" rel="noopener">CCF字符串匹配</a></td>
+<td>String::find()&amp;&amp; tolower()</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108407271" target="_blank" rel="noopener">CCF公共钥匙盒</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/04/gonggongyaoshihe/" target="_blank" rel="noopener">CCF公共钥匙盒</a></td>
+<td>优先队列真的很棒！</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108405632" target="_blank" rel="noopener">CCF小明放学</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/04/xiaomingfangxue/" target="_blank" rel="noopener">CCF小明放学</a></td>
+<td>震惊，小明放学竟用一维数学模型解决！</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108401125" target="_blank" rel="noopener">CCF碰撞的小球</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/04/pengzhuangdexiaoqiu/" target="_blank" rel="noopener">CCF碰撞的小球</a></td>
+<td>我的小球碰撞不反弹，你怕不怕？</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108417968" target="_blank" rel="noopener">CCF集合竞价</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/05/jihejingjia/" target="_blank" rel="noopener">CCF集合竞价</a></td>
+<td>STL-set&amp;&amp;STL-vector&amp;&amp;sort()</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108418872" target="_blank" rel="noopener">CCF节日</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/05/jieri/" target="_blank" rel="noopener">CCF节日</a></td>
+<td>注意当月第一天超过目标星期的情况</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108420253" target="_blank" rel="noopener">CCF模板生成系统</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/05/mobanshengchengxitong/" target="_blank" rel="noopener">CCF模板生成系统</a></td>
+<td>字符串都有替身了，木大木大木大！</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108421794" target="_blank" rel="noopener">CCF画图</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/05/huatu/" target="_blank" rel="noopener">CCF画图</a></td>
+<td>一个平平无奇的搜索题bfs</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108423413" target="_blank" rel="noopener">CCF路径解析</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/05/lujingjiexi/" target="_blank" rel="noopener">CCF路径解析</a></td>
+<td>String::find()&amp;&amp;erase()</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108435153" target="_blank" rel="noopener">CCFMarkdown</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/06/markdown/" target="_blank" rel="noopener">CCFMarkdown</a></td>
+<td>用到了状态机的思想</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108430987" target="_blank" rel="noopener">CCF权限查询</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/06/quanxianchaxun/" target="_blank" rel="noopener">CCF权限查询</a></td>
+<td>解释一下什么是“大力出奇迹”</td>
+</tr>
+<tr>
+<td><a href="https://blog.csdn.net/qq_42136832/article/details/108430009" target="_blank" rel="noopener">CCF炉石传说</a></td>
+<td><a href="https://kamenrider41.gitee.io/2020/09/06/lushichuangshuo/" target="_blank" rel="noopener">CCF炉石传说</a></td>
+<td>谁说玩游戏对学习没帮助的？</td>
+</tr>
+<tr>
+<td># 历届真题前两题汇总</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p><a href="https://blog.csdn.net/qq_42136832/article/details/107471231" target="_blank" rel="noopener">CCF历届真题前两题—持续更新(山无陵，天地合，乃敢与君绝)</a></p>
 
             </div>
             <hr/>
@@ -1308,31 +1248,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/09/15/sci-introduction/">
+                <a href="/2020/10/01/hack-simple/">
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/11.jpg" class="responsive-img" alt="SCI论文introduction常用句式超全总结">
+                        <img src="/images/loading.gif" data-original="/medias/featureimages/5.jpg" class="responsive-img" alt="黑客从入门到入狱---一些基本的命令">
                         
-                        <span class="card-title">SCI论文introduction常用句式超全总结</span>
+                        <span class="card-title">黑客从入门到入狱---一些基本的命令</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            值得收藏introduction是什么？introduction是论文中不可或缺的一部分，作者往往在此陈述研究的主题和背景。本文介绍了introduction应当包含的信息，并总结出SCI论文中该部分的常用句式。本文主要总结SCI论文int
+                            一些基本的命令ping命令(网络诊断工具)PING （Packet Internet Groper），因特网包探索器，用于测试网络连接量的程序。Ping是工作在 TCP/IP网络体系结构中应用层的一个服务命令， 主要是向特定的目的主机发送 
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-09-15
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-10-01
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E8%AE%BA%E6%96%87/" class="post-category">
-                                    论文
+                            <a href="/categories/%E9%BB%91%E5%AE%A2%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E7%8B%B1/" class="post-category">
+                                    黑客从入门到入狱
                                 </a>
                             
                             
@@ -1342,8 +1282,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/SCI-introduction/">
-                        <span class="chip bg-color">SCI-introduction</span>
+                    <a href="/tags/%E5%85%A5%E9%97%A8%E5%91%BD%E4%BB%A4/">
+                        <span class="chip bg-color">入门命令</span>
                     </a>
                     
                 </div>
@@ -1590,7 +1530,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">18.9k</span>&nbsp;字
+                class="white-color">10.8k</span>&nbsp;字
             
             
             

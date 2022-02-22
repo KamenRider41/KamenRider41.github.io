@@ -50,7 +50,7 @@
     <link href="http://kamenrider41.github.io/2020/10/18/HUN-20TX-1/"/>
     <id>http://kamenrider41.github.io/2020/10/18/HUN-20TX-1/</id>
     <published>2020-10-18T11:00:00.000Z</published>
-    <updated>2020-10-18T12:23:53.037Z</updated>
+    <updated>2022-02-22T09:11:57.996Z</updated>
     
     <summary type="html">
     
@@ -156,67 +156,11 @@
   </entry>
   
   <entry>
-    <title>Leetcode2020-9月刷题汇总---如何搬起脚边的砖块？</title>
-    <link href="http://kamenrider41.github.io/2020/09/28/leetcode-20-09/"/>
-    <id>http://kamenrider41.github.io/2020/09/28/leetcode-20-09/</id>
-    <published>2020-09-28T04:00:00.000Z</published>
-    <updated>2020-10-18T11:11:16.097Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Leetcode" scheme="http://KamenRider41.github.io/categories/Leetcode/"/>
-    
-    
-      <category term="简单题" scheme="http://KamenRider41.github.io/tags/%E7%AE%80%E5%8D%95%E9%A2%98/"/>
-    
-      <category term="剑指offer" scheme="http://KamenRider41.github.io/tags/%E5%89%91%E6%8C%87offer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SCI论文introduction常用句式超全总结</title>
-    <link href="http://kamenrider41.github.io/2020/09/15/sci-introduction/"/>
-    <id>http://kamenrider41.github.io/2020/09/15/sci-introduction/</id>
-    <published>2020-09-15T05:52:56.000Z</published>
-    <updated>2020-09-15T06:54:35.317Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="论文" scheme="http://KamenRider41.github.io/categories/%E8%AE%BA%E6%96%87/"/>
-    
-    
-      <category term="SCI-introduction" scheme="http://KamenRider41.github.io/tags/SCI-introduction/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF2020-09月刷题汇总</title>
+    <title>CCF CSP经典题刷题汇总---少年，想走捷径吗？</title>
     <link href="http://kamenrider41.github.io/2020/09/07/ccf202009/"/>
     <id>http://kamenrider41.github.io/2020/09/07/ccf202009/</id>
     <published>2020-09-07T11:00:00.000Z</published>
-    <updated>2020-09-07T11:46:23.289Z</updated>
+    <updated>2022-02-22T09:10:18.222Z</updated>
     
     <summary type="html">
     
@@ -527,7 +471,7 @@
     <link href="http://kamenrider41.github.io/2020/09/04/gonggongyaoshihe/"/>
     <id>http://kamenrider41.github.io/2020/09/04/gonggongyaoshihe/</id>
     <published>2020-09-04T05:00:00.000Z</published>
-    <updated>2020-09-07T06:12:06.346Z</updated>
+    <updated>2022-02-22T08:55:36.566Z</updated>
     
     <summary type="html">
     
@@ -573,6 +517,60 @@
     
     
       <category term="String" scheme="http://KamenRider41.github.io/tags/String/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CCF学生排队---复习STL-vector，vector增删真的方便</title>
+    <link href="http://kamenrider41.github.io/2020/09/03/xueshengpaidui/"/>
+    <id>http://kamenrider41.github.io/2020/09/03/xueshengpaidui/</id>
+    <published>2020-09-03T07:00:00.000Z</published>
+    <updated>2020-09-07T05:52:34.850Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+    
+    
+      <category term="STL-vector" scheme="http://KamenRider41.github.io/tags/STL-vector/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CCF回收站选址---map与结构体的结合使用+复习STL-map</title>
+    <link href="http://kamenrider41.github.io/2020/09/03/huishouzhanxuanzhi/"/>
+    <id>http://kamenrider41.github.io/2020/09/03/huishouzhanxuanzhi/</id>
+    <published>2020-09-03T06:00:00.000Z</published>
+    <updated>2020-09-07T05:49:05.787Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+    
+    
+      <category term="STL-map" scheme="http://KamenRider41.github.io/tags/STL-map/"/>
     
   </entry>
   
