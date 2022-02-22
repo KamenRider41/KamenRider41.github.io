@@ -5,9 +5,9 @@
   <subtitle>款款独行，才不致倾溢</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://kamenrider41.github.io/"/>
-  <updated>2020-11-12T09:28:35.397Z</updated>
-  <id>http://kamenrider41.github.io/</id>
+  <link href="http://kamenrider41.gitee.io/"/>
+  <updated>2022-02-22T12:02:19.246Z</updated>
+  <id>http://kamenrider41.gitee.io/</id>
   
   <author>
     <name>Siyi(41)</name>
@@ -17,9 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CCF CSP历届真题前两题(更新至2021.04)</title>
+    <link href="http://kamenrider41.gitee.io/2021/04/15/ccf2/"/>
+    <id>http://kamenrider41.gitee.io/2021/04/15/ccf2/</id>
+    <published>2021-04-15T11:00:00.000Z</published>
+    <updated>2022-02-22T12:02:19.246Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
+    
+    
+      <category term="ccf总结" scheme="http://KamenRider41.gitee.io/tags/ccf%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>黑客从入门到入狱---不得不说的缓冲区溢出攻击</title>
-    <link href="http://kamenrider41.github.io/2020/11/11/buffer/"/>
-    <id>http://kamenrider41.github.io/2020/11/11/buffer/</id>
+    <link href="http://kamenrider41.gitee.io/2020/11/11/buffer/"/>
+    <id>http://kamenrider41.gitee.io/2020/11/11/buffer/</id>
     <published>2020-11-11T15:00:00.000Z</published>
     <updated>2020-11-12T09:28:35.397Z</updated>
     
@@ -36,19 +63,19 @@
     </summary>
     
     
-      <category term="黑客从入门到入狱" scheme="http://KamenRider41.github.io/categories/%E9%BB%91%E5%AE%A2%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E7%8B%B1/"/>
+      <category term="黑客从入门到入狱" scheme="http://KamenRider41.gitee.io/categories/%E9%BB%91%E5%AE%A2%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E7%8B%B1/"/>
     
     
-      <category term="缓冲区溢出攻击" scheme="http://KamenRider41.github.io/tags/%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA%E6%94%BB%E5%87%BB/"/>
+      <category term="缓冲区溢出攻击" scheme="http://KamenRider41.gitee.io/tags/%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA%E6%94%BB%E5%87%BB/"/>
     
-      <category term="linux" scheme="http://KamenRider41.github.io/tags/linux/"/>
+      <category term="linux" scheme="http://KamenRider41.gitee.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>湖南大学通信系一班 “学习习近平总书记来校考察调研时的重要讲话精神”团课活动与团代表选举大会</title>
-    <link href="http://kamenrider41.github.io/2020/10/18/HUN-20TX-1/"/>
-    <id>http://kamenrider41.github.io/2020/10/18/HUN-20TX-1/</id>
+    <link href="http://kamenrider41.gitee.io/2020/10/18/HUN-20TX-1/"/>
+    <id>http://kamenrider41.gitee.io/2020/10/18/HUN-20TX-1/</id>
     <published>2020-10-18T11:00:00.000Z</published>
     <updated>2022-02-22T09:11:57.996Z</updated>
     
@@ -65,17 +92,17 @@
     </summary>
     
     
-      <category term="学生工作" scheme="http://KamenRider41.github.io/categories/%E5%AD%A6%E7%94%9F%E5%B7%A5%E4%BD%9C/"/>
+      <category term="学生工作" scheme="http://KamenRider41.gitee.io/categories/%E5%AD%A6%E7%94%9F%E5%B7%A5%E4%BD%9C/"/>
     
     
-      <category term="团支部大会" scheme="http://KamenRider41.github.io/tags/%E5%9B%A2%E6%94%AF%E9%83%A8%E5%A4%A7%E4%BC%9A/"/>
+      <category term="团支部大会" scheme="http://KamenRider41.gitee.io/tags/%E5%9B%A2%E6%94%AF%E9%83%A8%E5%A4%A7%E4%BC%9A/"/>
     
   </entry>
   
   <entry>
     <title>手把手教学，实现两层神经网络(在b站有辅助视频，视频非原创)</title>
-    <link href="http://kamenrider41.github.io/2020/10/07/two-layer-nn/"/>
-    <id>http://kamenrider41.github.io/2020/10/07/two-layer-nn/</id>
+    <link href="http://kamenrider41.gitee.io/2020/10/07/two-layer-nn/"/>
+    <id>http://kamenrider41.gitee.io/2020/10/07/two-layer-nn/</id>
     <published>2020-10-07T04:00:00.000Z</published>
     <updated>2020-10-18T11:48:06.634Z</updated>
     
@@ -92,17 +119,17 @@
     </summary>
     
     
-      <category term="神经网络" scheme="http://KamenRider41.github.io/categories/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+      <category term="神经网络" scheme="http://KamenRider41.gitee.io/categories/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="两层神经网络" scheme="http://KamenRider41.github.io/tags/%E4%B8%A4%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+      <category term="两层神经网络" scheme="http://KamenRider41.gitee.io/tags/%E4%B8%A4%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
   <entry>
     <title>最简单的pycharm专业版2089方法---不是之一</title>
-    <link href="http://kamenrider41.github.io/2020/10/02/pycharm-activation/"/>
-    <id>http://kamenrider41.github.io/2020/10/02/pycharm-activation/</id>
+    <link href="http://kamenrider41.gitee.io/2020/10/02/pycharm-activation/"/>
+    <id>http://kamenrider41.gitee.io/2020/10/02/pycharm-activation/</id>
     <published>2020-10-02T04:00:00.000Z</published>
     <updated>2020-10-18T11:23:39.836Z</updated>
     
@@ -119,19 +146,19 @@
     </summary>
     
     
-      <category term="代码工具" scheme="http://KamenRider41.github.io/categories/%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/"/>
+      <category term="代码工具" scheme="http://KamenRider41.gitee.io/categories/%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="pycharm" scheme="http://KamenRider41.github.io/tags/pycharm/"/>
+      <category term="pycharm" scheme="http://KamenRider41.gitee.io/tags/pycharm/"/>
     
-      <category term="激活" scheme="http://KamenRider41.github.io/tags/%E6%BF%80%E6%B4%BB/"/>
+      <category term="激活" scheme="http://KamenRider41.gitee.io/tags/%E6%BF%80%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>黑客从入门到入狱---一些基本的命令</title>
-    <link href="http://kamenrider41.github.io/2020/10/01/hack-simple/"/>
-    <id>http://kamenrider41.github.io/2020/10/01/hack-simple/</id>
+    <link href="http://kamenrider41.gitee.io/2020/10/01/hack-simple/"/>
+    <id>http://kamenrider41.gitee.io/2020/10/01/hack-simple/</id>
     <published>2020-10-01T13:00:00.000Z</published>
     <updated>2020-10-18T11:39:18.085Z</updated>
     
@@ -148,19 +175,19 @@
     </summary>
     
     
-      <category term="黑客从入门到入狱" scheme="http://KamenRider41.github.io/categories/%E9%BB%91%E5%AE%A2%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E7%8B%B1/"/>
+      <category term="黑客从入门到入狱" scheme="http://KamenRider41.gitee.io/categories/%E9%BB%91%E5%AE%A2%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E7%8B%B1/"/>
     
     
-      <category term="入门命令" scheme="http://KamenRider41.github.io/tags/%E5%85%A5%E9%97%A8%E5%91%BD%E4%BB%A4/"/>
+      <category term="入门命令" scheme="http://KamenRider41.gitee.io/tags/%E5%85%A5%E9%97%A8%E5%91%BD%E4%BB%A4/"/>
     
   </entry>
   
   <entry>
     <title>CCF CSP经典题刷题汇总---少年，想走捷径吗？</title>
-    <link href="http://kamenrider41.github.io/2020/09/07/ccf202009/"/>
-    <id>http://kamenrider41.github.io/2020/09/07/ccf202009/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/07/ccf/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/07/ccf/</id>
     <published>2020-09-07T11:00:00.000Z</published>
-    <updated>2022-02-22T09:10:18.222Z</updated>
+    <updated>2022-02-22T11:57:30.813Z</updated>
     
     <summary type="html">
     
@@ -175,17 +202,17 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="总结" scheme="http://KamenRider41.github.io/tags/%E6%80%BB%E7%BB%93/"/>
+      <category term="ccf总结" scheme="http://KamenRider41.gitee.io/tags/ccf%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>CCF炉石传说---谁说玩游戏对学习没帮助的？</title>
-    <link href="http://kamenrider41.github.io/2020/09/06/lushichuangshuo/"/>
-    <id>http://kamenrider41.github.io/2020/09/06/lushichuangshuo/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/06/lushichuangshuo/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/06/lushichuangshuo/</id>
     <published>2020-09-06T06:00:00.000Z</published>
     <updated>2020-09-07T06:41:06.064Z</updated>
     
@@ -202,19 +229,19 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="STL-vector" scheme="http://KamenRider41.github.io/tags/STL-vector/"/>
+      <category term="STL-vector" scheme="http://KamenRider41.gitee.io/tags/STL-vector/"/>
     
-      <category term="大模拟" scheme="http://KamenRider41.github.io/tags/%E5%A4%A7%E6%A8%A1%E6%8B%9F/"/>
+      <category term="大模拟" scheme="http://KamenRider41.gitee.io/tags/%E5%A4%A7%E6%A8%A1%E6%8B%9F/"/>
     
   </entry>
   
   <entry>
     <title>CCF权限查询---解释一下什么是“大力出奇迹”</title>
-    <link href="http://kamenrider41.github.io/2020/09/06/quanxianchaxun/"/>
-    <id>http://kamenrider41.github.io/2020/09/06/quanxianchaxun/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/06/quanxianchaxun/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/06/quanxianchaxun/</id>
     <published>2020-09-06T05:00:00.000Z</published>
     <updated>2020-09-07T06:42:17.789Z</updated>
     
@@ -231,19 +258,19 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="STL-vector" scheme="http://KamenRider41.github.io/tags/STL-vector/"/>
+      <category term="STL-vector" scheme="http://KamenRider41.gitee.io/tags/STL-vector/"/>
     
-      <category term="暴力" scheme="http://KamenRider41.github.io/tags/%E6%9A%B4%E5%8A%9B/"/>
+      <category term="暴力" scheme="http://KamenRider41.gitee.io/tags/%E6%9A%B4%E5%8A%9B/"/>
     
   </entry>
   
   <entry>
     <title>CCFMarkdown---用到了状态机的思想</title>
-    <link href="http://kamenrider41.github.io/2020/09/06/markdown/"/>
-    <id>http://kamenrider41.github.io/2020/09/06/markdown/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/06/markdown/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/06/markdown/</id>
     <published>2020-09-06T04:00:00.000Z</published>
     <updated>2020-09-07T06:44:49.109Z</updated>
     
@@ -260,19 +287,19 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="String" scheme="http://KamenRider41.github.io/tags/String/"/>
+      <category term="String" scheme="http://KamenRider41.gitee.io/tags/String/"/>
     
-      <category term="状态机" scheme="http://KamenRider41.github.io/tags/%E7%8A%B6%E6%80%81%E6%9C%BA/"/>
+      <category term="状态机" scheme="http://KamenRider41.gitee.io/tags/%E7%8A%B6%E6%80%81%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>CCF路径解析---String::find()&amp;&amp;erase()</title>
-    <link href="http://kamenrider41.github.io/2020/09/05/lujingjiexi/"/>
-    <id>http://kamenrider41.github.io/2020/09/05/lujingjiexi/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/05/lujingjiexi/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/05/lujingjiexi/</id>
     <published>2020-09-05T08:00:00.000Z</published>
     <updated>2020-09-07T06:26:38.016Z</updated>
     
@@ -289,17 +316,17 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="String" scheme="http://KamenRider41.github.io/tags/String/"/>
+      <category term="String" scheme="http://KamenRider41.gitee.io/tags/String/"/>
     
   </entry>
   
   <entry>
     <title>CCF画图---一个平平无奇的搜索题bfs</title>
-    <link href="http://kamenrider41.github.io/2020/09/05/huatu/"/>
-    <id>http://kamenrider41.github.io/2020/09/05/huatu/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/05/huatu/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/05/huatu/</id>
     <published>2020-09-05T07:00:00.000Z</published>
     <updated>2020-09-07T06:24:50.744Z</updated>
     
@@ -316,19 +343,19 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="bfs" scheme="http://KamenRider41.github.io/tags/bfs/"/>
+      <category term="bfs" scheme="http://KamenRider41.gitee.io/tags/bfs/"/>
     
-      <category term="图论" scheme="http://KamenRider41.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
+      <category term="图论" scheme="http://KamenRider41.gitee.io/tags/%E5%9B%BE%E8%AE%BA/"/>
     
   </entry>
   
   <entry>
     <title>CCF模板生成系统---字符串都有替身了，木大木大木大！</title>
-    <link href="http://kamenrider41.github.io/2020/09/05/mobanshengchengxitong/"/>
-    <id>http://kamenrider41.github.io/2020/09/05/mobanshengchengxitong/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/05/mobanshengchengxitong/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/05/mobanshengchengxitong/</id>
     <published>2020-09-05T06:00:00.000Z</published>
     <updated>2020-09-07T06:23:37.447Z</updated>
     
@@ -345,17 +372,17 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="String" scheme="http://KamenRider41.github.io/tags/String/"/>
+      <category term="String" scheme="http://KamenRider41.gitee.io/tags/String/"/>
     
   </entry>
   
   <entry>
     <title>CCF节日---注意当月第一天超过目标星期的情况</title>
-    <link href="http://kamenrider41.github.io/2020/09/05/jieri/"/>
-    <id>http://kamenrider41.github.io/2020/09/05/jieri/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/05/jieri/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/05/jieri/</id>
     <published>2020-09-05T05:00:00.000Z</published>
     <updated>2020-09-07T06:22:07.017Z</updated>
     
@@ -372,17 +399,17 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="日期问题" scheme="http://KamenRider41.github.io/tags/%E6%97%A5%E6%9C%9F%E9%97%AE%E9%A2%98/"/>
+      <category term="日期问题" scheme="http://KamenRider41.gitee.io/tags/%E6%97%A5%E6%9C%9F%E9%97%AE%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>CCF集合竞价---STL-set&amp;&amp;STL-vector&amp;&amp;sort()</title>
-    <link href="http://kamenrider41.github.io/2020/09/05/jihejingjia/"/>
-    <id>http://kamenrider41.github.io/2020/09/05/jihejingjia/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/05/jihejingjia/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/05/jihejingjia/</id>
     <published>2020-09-05T04:00:00.000Z</published>
     <updated>2020-09-07T06:19:30.570Z</updated>
     
@@ -399,21 +426,21 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="STL-set" scheme="http://KamenRider41.github.io/tags/STL-set/"/>
+      <category term="STL-vector" scheme="http://KamenRider41.gitee.io/tags/STL-vector/"/>
     
-      <category term="STL-vector" scheme="http://KamenRider41.github.io/tags/STL-vector/"/>
+      <category term="STL-set" scheme="http://KamenRider41.gitee.io/tags/STL-set/"/>
     
-      <category term="algorithm" scheme="http://KamenRider41.github.io/tags/algorithm/"/>
+      <category term="algorithm" scheme="http://KamenRider41.gitee.io/tags/algorithm/"/>
     
   </entry>
   
   <entry>
     <title>CCF碰撞的小球---我的小球碰撞不反弹，你怕不怕？</title>
-    <link href="http://kamenrider41.github.io/2020/09/04/pengzhuangdexiaoqiu/"/>
-    <id>http://kamenrider41.github.io/2020/09/04/pengzhuangdexiaoqiu/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/04/pengzhuangdexiaoqiu/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/04/pengzhuangdexiaoqiu/</id>
     <published>2020-09-04T07:00:00.000Z</published>
     <updated>2020-09-07T06:16:26.790Z</updated>
     
@@ -430,17 +457,17 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="巧妙思想" scheme="http://KamenRider41.github.io/tags/%E5%B7%A7%E5%A6%99%E6%80%9D%E6%83%B3/"/>
+      <category term="巧妙思想" scheme="http://KamenRider41.gitee.io/tags/%E5%B7%A7%E5%A6%99%E6%80%9D%E6%83%B3/"/>
     
   </entry>
   
   <entry>
     <title>CCF小明放学---震惊，小明放学竟用一维数学模型解决！</title>
-    <link href="http://kamenrider41.github.io/2020/09/04/xiaomingfangxue/"/>
-    <id>http://kamenrider41.github.io/2020/09/04/xiaomingfangxue/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/04/xiaomingfangxue/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/04/xiaomingfangxue/</id>
     <published>2020-09-04T06:00:00.000Z</published>
     <updated>2020-09-07T06:14:28.473Z</updated>
     
@@ -457,19 +484,19 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="图论" scheme="http://KamenRider41.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
+      <category term="图论" scheme="http://KamenRider41.gitee.io/tags/%E5%9B%BE%E8%AE%BA/"/>
     
-      <category term="数学思维" scheme="http://KamenRider41.github.io/tags/%E6%95%B0%E5%AD%A6%E6%80%9D%E7%BB%B4/"/>
+      <category term="数学思维" scheme="http://KamenRider41.gitee.io/tags/%E6%95%B0%E5%AD%A6%E6%80%9D%E7%BB%B4/"/>
     
   </entry>
   
   <entry>
     <title>CCF公共钥匙盒---优先队列真的很棒！</title>
-    <link href="http://kamenrider41.github.io/2020/09/04/gonggongyaoshihe/"/>
-    <id>http://kamenrider41.github.io/2020/09/04/gonggongyaoshihe/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/04/gonggongyaoshihe/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/04/gonggongyaoshihe/</id>
     <published>2020-09-04T05:00:00.000Z</published>
     <updated>2022-02-22T08:55:36.566Z</updated>
     
@@ -486,17 +513,17 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="STL-queue" scheme="http://KamenRider41.github.io/tags/STL-queue/"/>
+      <category term="STL-queue" scheme="http://KamenRider41.gitee.io/tags/STL-queue/"/>
     
   </entry>
   
   <entry>
     <title>CCF字符串匹配---String::find()&amp;&amp; tolower()</title>
-    <link href="http://kamenrider41.github.io/2020/09/04/zifuchuanpipei/"/>
-    <id>http://kamenrider41.github.io/2020/09/04/zifuchuanpipei/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/04/zifuchuanpipei/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/04/zifuchuanpipei/</id>
     <published>2020-09-04T04:00:00.000Z</published>
     <updated>2020-09-07T05:56:47.081Z</updated>
     
@@ -513,17 +540,17 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="String" scheme="http://KamenRider41.github.io/tags/String/"/>
+      <category term="String" scheme="http://KamenRider41.gitee.io/tags/String/"/>
     
   </entry>
   
   <entry>
     <title>CCF学生排队---复习STL-vector，vector增删真的方便</title>
-    <link href="http://kamenrider41.github.io/2020/09/03/xueshengpaidui/"/>
-    <id>http://kamenrider41.github.io/2020/09/03/xueshengpaidui/</id>
+    <link href="http://kamenrider41.gitee.io/2020/09/03/xueshengpaidui/"/>
+    <id>http://kamenrider41.gitee.io/2020/09/03/xueshengpaidui/</id>
     <published>2020-09-03T07:00:00.000Z</published>
     <updated>2020-09-07T05:52:34.850Z</updated>
     
@@ -540,37 +567,10 @@
     </summary>
     
     
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
+      <category term="CCF" scheme="http://KamenRider41.gitee.io/categories/CCF/"/>
     
     
-      <category term="STL-vector" scheme="http://KamenRider41.github.io/tags/STL-vector/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CCF回收站选址---map与结构体的结合使用+复习STL-map</title>
-    <link href="http://kamenrider41.github.io/2020/09/03/huishouzhanxuanzhi/"/>
-    <id>http://kamenrider41.github.io/2020/09/03/huishouzhanxuanzhi/</id>
-    <published>2020-09-03T06:00:00.000Z</published>
-    <updated>2020-09-07T05:49:05.787Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="CCF" scheme="http://KamenRider41.github.io/categories/CCF/"/>
-    
-    
-      <category term="STL-map" scheme="http://KamenRider41.github.io/tags/STL-map/"/>
+      <category term="STL-vector" scheme="http://KamenRider41.gitee.io/tags/STL-vector/"/>
     
   </entry>
   
