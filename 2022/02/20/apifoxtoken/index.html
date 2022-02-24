@@ -49,7 +49,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/images/loading.gif" data-original="/medias/logo.png" class="logo-img" alt="LOGO">
+                    <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/logo.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">あなたの可愛い41</span>
                 </a>
@@ -200,7 +200,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/images/loading.gif" data-original="/medias/logo.png" class="logo-img circle responsive-img">
+        <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">あなたの可愛い41</div>
         <div class="logo-desc">
@@ -607,7 +607,7 @@
 <p>从公式我们可以看出apifox是值得学习的！</p>
 <p>今天就和大家介绍一下如何在所有的接口中添加登录接口获得的<strong>token</strong></p>
 <p>两行代码即可！</p>
-<h1><span id="zai-deng-lu-jie-kou-diao-tong-de-ji-chu-shang">在登录接口调通的基础上</span></h1><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/93ab14ab547a4d7d8d86ab4b0d87edc6.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZKn5qGQ,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br>如图,我们已经成功测试登录接口了,得到了返回的==token==</p>
+<h1><span id="zai-deng-lu-jie-kou-diao-tong-de-ji-chu-shang">在登录接口调通的基础上</span></h1><p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/93ab14ab547a4d7d8d86ab4b0d87edc6.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZKn5qGQ,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br>如图,我们已经成功测试登录接口了,得到了返回的==token==</p>
 <pre class=" language-JSON"><code class="language-JSON">{
     "code": 0,
     "message": "用户登录成功",
@@ -620,15 +620,15 @@
 </ul>
 <h1><span id="zai-deng-lu-jie-kou-tian-jia-hou-zhi-cao-zuo-ti-qu-token-zuo-wei-huan-jing-bian-liang">在登录接口添加后置操作提取token作为环境变量</span></h1><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">var</span> data<span class="token operator">=</span> JSON<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>responseBody<span class="token punctuation">)</span>
 pm<span class="token punctuation">.</span>environment<span class="token punctuation">.</span><span class="token keyword">set</span><span class="token punctuation">(</span><span class="token string">"token"</span><span class="token punctuation">,</span> data<span class="token punctuation">.</span>result<span class="token punctuation">.</span>token<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/baed57db406e409ca0aff6d9d292e6ce.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZKn5qGQ,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
-<h1><span id="zai-xiang-mu-gai-lan-zhong-xuan-ze-auth-he-bearer-token-lei-xing-bing-fu-zhi-huan-jing-bian-liang-token">在项目概览中选择Auth和Bearer Token类型并赋值环境变量token</span></h1><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/63a2505c6796483cbc4d9774b1a6a001.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZKn5qGQ,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/baed57db406e409ca0aff6d9d292e6ce.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZKn5qGQ,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<h1><span id="zai-xiang-mu-gai-lan-zhong-xuan-ze-auth-he-bearer-token-lei-xing-bing-fu-zhi-huan-jing-bian-liang-token">在项目概览中选择Auth和Bearer Token类型并赋值环境变量token</span></h1><p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/63a2505c6796483cbc4d9774b1a6a001.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZKn5qGQ,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
 <hr>
 <ul>
 <li>此时,我们就将token放到了项目概览的Auth中了！！！</li>
 <li>但是，如何将所有的token都放到接口中呢！</li>
-<li>看下一步<h1><span id="wo-men-zai-jie-kou-zhong-xiu-gai-wen-dang-ke-yi-kan-dao-auth-ji-cheng-fu-ji">我们在接口中修改文档可以看到Auth继承父级</span></h1><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/112f0afe12794d23bf9796adc6633175.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZKn5qGQ,size_20,color_FFFFFF,t_70,g_se,x_16" alt="请添加图片描述"><br>在修改文档中我们下面的<code>Auth</code>我们可以看到==从父级继承==(而且是自动默认父级继承的)<br>那么就会自动携带项目概览中的==token==</li>
+<li>看下一步<h1><span id="wo-men-zai-jie-kou-zhong-xiu-gai-wen-dang-ke-yi-kan-dao-auth-ji-cheng-fu-ji">我们在接口中修改文档可以看到Auth继承父级</span></h1><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/112f0afe12794d23bf9796adc6633175.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZKn5qGQ,size_20,color_FFFFFF,t_70,g_se,x_16" alt="请添加图片描述"><br>在修改文档中我们下面的<code>Auth</code>我们可以看到==从父级继承==(而且是自动默认父级继承的)<br>那么就会自动携带项目概览中的==token==</li>
 </ul>
-<h1><span id="tian-jia-cheng-gong-wan-cheng-xiu-gai-mi-ma">添加成功,完成修改密码！</span></h1><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/cad413527ebf41afbb3b7f10bc6c06d5.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZKn5qGQ,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<h1><span id="tian-jia-cheng-gong-wan-cheng-xiu-gai-mi-ma">添加成功,完成修改密码！</span></h1><p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/cad413527ebf41afbb3b7f10bc6c06d5.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZKn5qGQ,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
 
             </div>
             <hr/>
@@ -823,10 +823,10 @@ pm<span class="token punctuation">.</span>environment<span class="token punctuat
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/images/loading.gif" data-original="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/images/loading.gif" data-original="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1179,7 +1179,7 @@ pm<span class="token punctuation">.</span>environment<span class="token punctuat
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/23.jpg" class="responsive-img" alt="Apifox-在所有接口中添加登录后获取的token(有图示)">
+                        <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/featureimages/23.jpg" class="responsive-img" alt="Apifox-在所有接口中添加登录后获取的token(有图示)">
                         
                         <span class="card-title">Apifox-在所有接口中添加登录后获取的token(有图示)</span>
                     </div>
@@ -1233,7 +1233,7 @@ pm<span class="token punctuation">.</span>environment<span class="token punctuat
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/2.jpg" class="responsive-img" alt="vue2和vue3封装echarts的比较(vue3深度监听)">
+                        <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/featureimages/2.jpg" class="responsive-img" alt="vue2和vue3封装echarts的比较(vue3深度监听)">
                         
                         <span class="card-title">vue2和vue3封装echarts的比较(vue3深度监听)</span>
                     </div>

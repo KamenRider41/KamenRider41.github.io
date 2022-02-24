@@ -49,7 +49,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/images/loading.gif" data-original="/medias/logo.png" class="logo-img" alt="LOGO">
+                    <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/logo.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">あなたの可愛い41</span>
                 </a>
@@ -200,7 +200,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/images/loading.gif" data-original="/medias/logo.png" class="logo-img circle responsive-img">
+        <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">あなたの可愛い41</div>
         <div class="logo-desc">
@@ -607,8 +607,8 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1><span id="ccf-201403-3">CCF-201403-3</span></h1><h1><span id="tong-guo-zhe-ge-ti-mu-wo-ren-shi-yi-xia-sstream-he-getline">通过这个题目我认识一下sstream和getline()</span></h1><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200903141557170.GIF#pic_center" alt="下面都不会了"></p>
-<h2><span id="rang-wo-men-kan-kan-ti-mu-zen-me-shuo">让我们看看题目怎么说</span></h2><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200903141857958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="1"></p>
+                <h1><span id="ccf-201403-3">CCF-201403-3</span></h1><h1><span id="tong-guo-zhe-ge-ti-mu-wo-ren-shi-yi-xia-sstream-he-getline">通过这个题目我认识一下sstream和getline()</span></h1><p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/20200903141557170.GIF#pic_center" alt="下面都不会了"></p>
+<h2><span id="rang-wo-men-kan-kan-ti-mu-zen-me-shuo">让我们看看题目怎么说</span></h2><p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/20200903141857958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="1"></p>
 <h3><span id="jie-ti-si-lu">解题思路</span></h3><p>1.首先我们要把第一行的字母提取出来，分辨出每个字母是带参的还是不带参的，可以使用两个vector，两个set，我们这里使用的是一个map，set在这里原则上会好于vector，因为set有find函数，这样查找的时候会方便，不多说，此题我们使用了map来存贮字母，1表示带参，0表示不带参<br>2.每一行的输入要使用到getline，然后把getline里面的string提取出来，我们使用到了sstream中的stringstream。<br><strong>需要注意的是：在getline()前要先读入一个空格，我们使用getchar()或者cin.ignore()都可以，这里我们使用了后者</strong><br>3.由于输入的字母需要排序，所以我们用set来存贮输出的结果<br><strong>在每次输入前，查询的map-m，和存储的set-ans和输入输出流ss都需要clear()</strong><br>4.失分点：如果带参的字母后面参数为空，那么这个参数报错，需要break；<br>5.失分点：ss.str(str) 不能用ss&lt;&lt;str代替，不然只能拿10分。</p>
 <h3><span id="dai-ma-shi-zhe-yang-de">代码是这样的</span></h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;iostream></span></span>
 <span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;cstring></span></span>
@@ -668,8 +668,8 @@
     <span class="token punctuation">}</span> 
     <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-<p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200903143043223.png#pic_center" alt="过了哟"></p>
-<h3><span id="stl-set-de-api">STL-set的API</span></h3><p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20200903143726735.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="set-API"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/20200903143043223.png#pic_center" alt="过了哟"></p>
+<h3><span id="stl-set-de-api">STL-set的API</span></h3><p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/20200903143726735.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="set-API"></p>
 
             </div>
             <hr/>
@@ -868,10 +868,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/images/loading.gif" data-original="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/images/loading.gif" data-original="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1223,7 +1223,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/17.jpg" class="responsive-img" alt="CCF回收站选址---map与结构体的结合使用+复习STL-map">
+                        <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/featureimages/17.jpg" class="responsive-img" alt="CCF回收站选址---map与结构体的结合使用+复习STL-map">
                         
                         <span class="card-title">CCF回收站选址---map与结构体的结合使用+复习STL-map</span>
                     </div>
@@ -1274,7 +1274,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/12.jpg" class="responsive-img" alt="C++中的小数位数控制和有效数字控制">
+                        <img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/featureimages/12.jpg" class="responsive-img" alt="C++中的小数位数控制和有效数字控制">
                         
                         <span class="card-title">C++中的小数位数控制和有效数字控制</span>
                     </div>
