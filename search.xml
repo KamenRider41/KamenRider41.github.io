@@ -586,9 +586,9 @@
       
         <tags>
             
-            <tag> STL-set </tag>
-            
             <tag> STL-vector </tag>
+            
+            <tag> STL-set </tag>
             
             <tag> algorithm </tag>
             
