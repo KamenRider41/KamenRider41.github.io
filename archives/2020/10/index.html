@@ -169,12 +169,6 @@
       
 
         <body>
-          <script type="text/javascript">//ֻ���������ҳ������Ч
-            var windowWidth = $(window).width();
-            if (windowWidth > 0) {
-              document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
-            }
-          </script>
           
             <div id="loading-container">
               <p class="loading-text">嘘~ 正在从服务器偷取页面 . . . </p>
@@ -187,6 +181,7 @@
               </div>
             </div>
             
+
               <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -1118,6 +1113,12 @@ $(function () {
                                                                 document.addEventListener("visibilitychange", function () {
                                                                   document.hidden ? (document.title = "ヽ(●-`Д´-)ノ别切走，回来看我呀！", clearTimeout(st)) : (document.title = "(Ő∀Ő3)ノ真好！", st = setTimeout(function () { document.title = OriginTitile }, 3e3))
                                                                 })
+                                                              </script>
+                                                              <script type="text/javascript">//ֻ���������ҳ������Ч
+                                                                var windowWidth = $(window).width();
+                                                                if (windowWidth > 0) {
+                                                                  document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+                                                                }
                                                               </script>
         <script>
             window.imageLazyLoadSetting = {

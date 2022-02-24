@@ -169,12 +169,6 @@
       
 
         <body>
-          <script type="text/javascript">//ֻ���������ҳ������Ч
-            var windowWidth = $(window).width();
-            if (windowWidth > 0) {
-              document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
-            }
-          </script>
           
             <div id="loading-container">
               <p class="loading-text">嘘~ 正在从服务器偷取页面 . . . </p>
@@ -187,6 +181,7 @@
               </div>
             </div>
             
+
               <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -619,29 +614,20 @@
                 
                 
                 
-                <a href="/categories/%E5%AD%A6%E7%94%9F%E5%B7%A5%E4%BD%9C/" title="学生工作: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F9EBEA;">学生工作
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/%E5%90%8E%E7%AB%AF/" title="后端: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">后端
+                            style="background-color: #F9EBEA;">后端
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/%E9%BB%91%E5%AE%A2%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E7%8B%B1/" title="黑客从入门到入狱: 3">
+                <a href="/categories/%E5%AD%A6%E7%94%9F%E5%B7%A5%E4%BD%9C/" title="学生工作: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D5F5E3;">黑客从入门到入狱
-                        <span class="tag-length">3</span>
+                            style="background-color: #F5EEF8;">学生工作
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -649,8 +635,17 @@
                 <a href="/categories/CCF/" title="CCF: 18">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #E8F8F5;">CCF
+                            style="background-color: #D5F5E3;">CCF
                         <span class="tag-length">18</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E9%BB%91%E5%AE%A2%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E7%8B%B1/" title="黑客从入门到入狱: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #E8F8F5;">黑客从入门到入狱
+                        <span class="tag-length">3</span>
                     </span>
                 </a>
                 
@@ -1030,6 +1025,12 @@ $(function () {
                                                                 document.addEventListener("visibilitychange", function () {
                                                                   document.hidden ? (document.title = "ヽ(●-`Д´-)ノ别切走，回来看我呀！", clearTimeout(st)) : (document.title = "(Ő∀Ő3)ノ真好！", st = setTimeout(function () { document.title = OriginTitile }, 3e3))
                                                                 })
+                                                              </script>
+                                                              <script type="text/javascript">//ֻ���������ҳ������Ч
+                                                                var windowWidth = $(window).width();
+                                                                if (windowWidth > 0) {
+                                                                  document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+                                                                }
                                                               </script>
         <script>
             window.imageLazyLoadSetting = {
