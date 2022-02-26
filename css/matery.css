@@ -2156,11 +2156,50 @@ footer .copy-right {
 }
 
 /*********自行添加********/
+/*小屏幕下(手机类)的样式*/
+@media only screen and (max-width: 601px) {
+  #myMessage,#myAward{
+    font-size: smaller;
+    position: relative;
+    left: 35px;
+    box-sizing: border-box;
+    width: 233px;
+    height: 300px;
+    color: rgba(0, 0, 0, 1);
+    padding: 20px;
+    margin: 0px;
+  }
+  #myAward{
+    border-top: 1px solid rgba(0, 0, 0, 1);;
+    top: 0px;
+    padding: 5px;
+  }
+  .verse{
+    height:300px;
+  }
+  .myverse{
+    position: relative;
+    left: 30px;
+    font-size: small;
+    width:240PX;
+    
+  }
+}
+
+/*中等屏幕下(平板类)的样式*/
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+ 
+}
+
+/*大屏幕下(桌面类)的样式*/
+@media only screen and (min-width: 993px) {
+
+}
 #myMessage,#myAward{
   position: absolute;
   left: 100px;
   box-sizing: border-box;
-  width: 450px;
+  width: 470px;
   height: 300px;
   color: rgba(0, 0, 0, 1);
   padding: 20px;
@@ -2170,3 +2209,11 @@ footer .copy-right {
   left: 550px;
   padding: 5px;
 }
+.verse{
+  height:250px;
+}
+.myverse{
+  position: relative;
+  left: 200px;
+}
+
