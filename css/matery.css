@@ -2154,7 +2154,6 @@ footer .copy-right {
     padding: 0px;
     margin: 0px;
 }
-
 /*********自行添加********/
 /*小屏幕下(手机类)的样式*/
 @media only screen and (max-width: 601px) {
@@ -2162,7 +2161,7 @@ footer .copy-right {
     font-size: smaller;
     position: relative;
     left: 35px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     width: 233px;
     height: 300px;
     color: rgba(0, 0, 0, 1);
@@ -2182,38 +2181,58 @@ footer .copy-right {
     left: 30px;
     font-size: small;
     width:240PX;
-    
   }
 }
 
 /*中等屏幕下(平板类)的样式*/
 @media only screen and (min-width: 600px) and (max-width: 992px) {
- 
+  #myMessage,#myAward{
+    position: relative;
+    left: 100px;
+    /* box-sizing: border-box; */
+    width: 410px;
+    height: 300px;
+    color: rgba(0, 0, 0, 1);
+    padding: 20px;
+  }
+  #myAward{
+    border-top: 1px solid rgba(0, 0, 0, 1);
+    position: relative;
+    left:120px;
+    padding: 5px;
+  }
+  .verse{
+    height:250px;
+  }
+  .myverse{
+    position: relative;
+    font-size:medium;
+    width: 460px;
+    left: 100px;
+  }
 }
 
 /*大屏幕下(桌面类)的样式*/
 @media only screen and (min-width: 993px) {
-
+  #myMessage,#myAward{
+    position: absolute;
+    left: 100px;
+    /* box-sizing: border-box; */
+    width: 470px;
+    height: 300px;
+    color: rgba(0, 0, 0, 1);
+    padding: 20px;
+  }
+  #myAward{
+    position: relative;
+    left: 550px;
+    padding: 5px;
+  }
+  .verse{
+    height:250px;
+  }
+  .myverse{
+    position: relative;
+    left: 200px;
+  }
 }
-#myMessage,#myAward{
-  position: absolute;
-  left: 100px;
-  box-sizing: border-box;
-  width: 470px;
-  height: 300px;
-  color: rgba(0, 0, 0, 1);
-  padding: 20px;
-}
-#myAward{
-  position: relative;
-  left: 550px;
-  padding: 5px;
-}
-.verse{
-  height:250px;
-}
-.myverse{
-  position: relative;
-  left: 200px;
-}
-
