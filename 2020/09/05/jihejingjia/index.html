@@ -750,8 +750,8 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1><span id="ccf-201412-3">CCF-201412-3</span></h1><p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/20200905122202667.GIF#pic_center" alt="下面都不会了"></p>
-<h2><span id="wo-men-xian-lai-kan-yi-xia-ti-mu">我们先来看一下题目</span></h2><p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/20200905122402557.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="1"></p>
+                <h1><span id="ccf-201412-3">CCF-201412-3</span></h1><p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/article-images/20200905122202667.GIF" alt="下面都不会了"></p>
+<h2><span id="wo-men-xian-lai-kan-yi-xia-ti-mu">我们先来看一下题目</span></h2><p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/article-images/20200905122402557.png" alt="1"></p>
 <h3><span id="jie-ti-si-lu">解题思路</span></h3><p>看到题目感觉经济学知识，不会，仔细品一下，其实就是找个价钱让交易量最大，那么我们存好数据暴力就可以了。<strong>淦！</strong><br>1.存数据我们用两个vector<br>2.暴力前，我们用两个sort()进行排序，这样遇到不满足的值可以break，不用遍历所有的数据<br>3.由于可能有多个交易最大值，为了取得最大价钱，我们用自己排序的set存储价钱（可以set不会有重复项），由经济学知识可以知道，最终的结果一定sell的price—-这个不重要，全部压到set里就可以了</p>
 <h3><span id="dai-ma">代码</span></h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;iostream></span></span>
 <span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;algorithm></span></span>
@@ -821,7 +821,7 @@ set<span class="token operator">&lt;</span><span class="token keyword">double</s
     cout<span class="token operator">&lt;&lt;</span>fixed<span class="token operator">&lt;&lt;</span><span class="token function">setprecision</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token operator">&lt;&lt;</span>best_price<span class="token operator">&lt;&lt;</span><span class="token string">" "</span><span class="token operator">&lt;&lt;</span>best_num<span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
     <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span> </code></pre>
-<p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/20200905141539196.png#pic_center" alt="结果"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/article-images/20200905141539196.png" alt="结果"></p>
 
             </div>
             <hr/>

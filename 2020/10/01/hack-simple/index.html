@@ -744,20 +744,20 @@
             <div id="articleContent">
                 <h1><span id="yi-xie-ji-ben-de-ming-ling">一些基本的命令</span></h1><h1><span id="ping-ming-ling-wang-luo-zhen-duan-gong-ju">ping命令(网络诊断工具)</span></h1><p>PING （Packet Internet Groper），因特网包探索器，用于测试网络连接量的程序。Ping是工作在 TCP/IP网络体系结构中应用层的一个服务命令， 主要是向特定的目的主机发送 ICMP（Internet Control Message Protocol 因特网报文控制协议）Echo 请求报文，测试目的站是否可达及了解其有关状态</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">ping</span> www.baidu.com</code></pre>
-<p><strong>其中 <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a> 为你需要请求的网站</strong><br><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/20200929185721667.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="1"></p>
+<p><strong>其中 <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a> 为你需要请求的网站</strong><br><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/article-images/20200929185721667.png" alt="1"></p>
 <p>正常返回四个数据<br>我们可以得到它的电脑IP地址，数据字节，时间（越小速度越快），TTL生存时间（判断操作系统类型）</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">ping</span> www.baidu.com -t</code></pre>
-<p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/2020092919025782.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="2"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/article-images/2020092919025782.png" alt="2"></p>
 <p><strong>一直发送请求，ctrl+c停止</strong></p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">ping</span> -n 12 www.baidu.com </code></pre>
 <p><strong>指定发送的次数</strong></p>
 <hr>
 <h1><span id="netstat-ming-ling">netstat命令</span></h1><p>Netstat用于显示与IP、TCP、UDP和ICMP协议相关的统计数据，一般用于检验本机各端口的网络连接情况。</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">netstat</span> -e</code></pre>
-<p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/20200929191501396.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="3"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/article-images/20200929191501396.png" alt="3"></p>
 <p>显示以太网，意义不大</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">netstat</span> -n</code></pre>
-<p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="https://img-blog.csdnimg.cn/20200929193156261.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMTM2ODMy,size_16,color_FFFFFF,t_70#pic_center" alt="4"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/KamenRider41/MyPic/loading.gif" data-original="/medias/article-images/20200929193156261.png" alt="4"></p>
 <p>显示所有网络</p>
 
             </div>
