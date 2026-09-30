@@ -5,9 +5,9 @@
   <subtitle>款款独行，才不致倾溢</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://kamenrider41.gitee.io/"/>
+  <link href="https://kamenrider41.github.io/"/>
   <updated>2022-02-22T13:19:04.078Z</updated>
-  <id>http://kamenrider41.gitee.io/</id>
+  <id>https://kamenrider41.github.io/</id>
   
   <author>
     <name>Siyi(41)</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Apifox-在所有接口中添加登录后获取的token(有图示)</title>
-    <link href="http://kamenrider41.gitee.io/2022/02/20/apifoxtoken/"/>
-    <id>http://kamenrider41.gitee.io/2022/02/20/apifoxtoken/</id>
+    <link href="https://kamenrider41.github.io/2022/02/20/apifoxtoken/"/>
+    <id>https://kamenrider41.github.io/2022/02/20/apifoxtoken/</id>
     <published>2022-02-20T15:00:00.000Z</published>
     <updated>2022-02-22T13:19:04.078Z</updated>
     
@@ -45,8 +45,8 @@
   
   <entry>
     <title>vue2和vue3封装echarts的比较(vue3深度监听)</title>
-    <link href="http://kamenrider41.gitee.io/2022/02/09/vueEcharts/"/>
-    <id>http://kamenrider41.gitee.io/2022/02/09/vueEcharts/</id>
+    <link href="https://kamenrider41.github.io/2022/02/09/vueEcharts/"/>
+    <id>https://kamenrider41.github.io/2022/02/09/vueEcharts/</id>
     <published>2022-02-09T15:00:00.000Z</published>
     <updated>2022-02-22T13:19:39.311Z</updated>
     
@@ -74,8 +74,8 @@
   
   <entry>
     <title>关于我黑进湖大体育场预定系统,最后被封号的小事！</title>
-    <link href="http://kamenrider41.gitee.io/2021/12/11/hnuhack/"/>
-    <id>http://kamenrider41.gitee.io/2021/12/11/hnuhack/</id>
+    <link href="https://kamenrider41.github.io/2021/12/11/hnuhack/"/>
+    <id>https://kamenrider41.github.io/2021/12/11/hnuhack/</id>
     <published>2021-12-11T13:00:00.000Z</published>
     <updated>2022-02-24T07:57:50.300Z</updated>
     
@@ -101,8 +101,8 @@
   
   <entry>
     <title>ES6学习-浅层次梳理，点到为止</title>
-    <link href="http://kamenrider41.gitee.io/2021/11/11/es6/"/>
-    <id>http://kamenrider41.gitee.io/2021/11/11/es6/</id>
+    <link href="https://kamenrider41.github.io/2021/11/11/es6/"/>
+    <id>https://kamenrider41.github.io/2021/11/11/es6/</id>
     <published>2021-11-11T15:00:00.000Z</published>
     <updated>2022-02-22T13:24:34.337Z</updated>
     
@@ -128,8 +128,8 @@
   
   <entry>
     <title>手写JavaScript数组api(彻底弄懂数组api！)</title>
-    <link href="http://kamenrider41.gitee.io/2021/10/14/javascriptArrayApi/"/>
-    <id>http://kamenrider41.gitee.io/2021/10/14/javascriptArrayApi/</id>
+    <link href="https://kamenrider41.github.io/2021/10/14/javascriptArrayApi/"/>
+    <id>https://kamenrider41.github.io/2021/10/14/javascriptArrayApi/</id>
     <published>2021-10-14T15:00:00.000Z</published>
     <updated>2022-02-22T13:20:31.913Z</updated>
     
@@ -157,8 +157,8 @@
   
   <entry>
     <title>湖南大学程序设计实训训练作业二汇总篇</title>
-    <link href="http://kamenrider41.gitee.io/2021/07/14/hnuHomework2/"/>
-    <id>http://kamenrider41.gitee.io/2021/07/14/hnuHomework2/</id>
+    <link href="https://kamenrider41.github.io/2021/07/14/hnuHomework2/"/>
+    <id>https://kamenrider41.github.io/2021/07/14/hnuHomework2/</id>
     <published>2021-07-14T15:00:00.000Z</published>
     <updated>2022-02-22T13:13:21.813Z</updated>
     
@@ -184,8 +184,8 @@
   
   <entry>
     <title>湖南大学程序设计实训训练作业一汇总篇</title>
-    <link href="http://kamenrider41.gitee.io/2021/07/08/hnuHomework1/"/>
-    <id>http://kamenrider41.gitee.io/2021/07/08/hnuHomework1/</id>
+    <link href="https://kamenrider41.github.io/2021/07/08/hnuHomework1/"/>
+    <id>https://kamenrider41.github.io/2021/07/08/hnuHomework1/</id>
     <published>2021-07-08T15:00:00.000Z</published>
     <updated>2022-02-22T13:12:46.303Z</updated>
     
@@ -211,8 +211,8 @@
   
   <entry>
     <title>matlab也能用来机器学习-手把手教你玩分类学习工具箱(ROC曲线,混淆矩阵一键生成)</title>
-    <link href="http://kamenrider41.gitee.io/2021/06/15/matlab/"/>
-    <id>http://kamenrider41.gitee.io/2021/06/15/matlab/</id>
+    <link href="https://kamenrider41.github.io/2021/06/15/matlab/"/>
+    <id>https://kamenrider41.github.io/2021/06/15/matlab/</id>
     <published>2021-06-15T15:00:00.000Z</published>
     <updated>2022-02-22T13:52:01.316Z</updated>
     
@@ -238,8 +238,8 @@
   
   <entry>
     <title>CCF CSP历届真题前两题(更新至2021.04)</title>
-    <link href="http://kamenrider41.gitee.io/2021/04/15/ccf2/"/>
-    <id>http://kamenrider41.gitee.io/2021/04/15/ccf2/</id>
+    <link href="https://kamenrider41.github.io/2021/04/15/ccf2/"/>
+    <id>https://kamenrider41.github.io/2021/04/15/ccf2/</id>
     <published>2021-04-15T11:00:00.000Z</published>
     <updated>2022-02-24T07:57:28.224Z</updated>
     
@@ -265,8 +265,8 @@
   
   <entry>
     <title>黑客从入门到入狱---不得不说的缓冲区溢出攻击</title>
-    <link href="http://kamenrider41.gitee.io/2020/11/11/buffer/"/>
-    <id>http://kamenrider41.gitee.io/2020/11/11/buffer/</id>
+    <link href="https://kamenrider41.github.io/2020/11/11/buffer/"/>
+    <id>https://kamenrider41.github.io/2020/11/11/buffer/</id>
     <published>2020-11-11T15:00:00.000Z</published>
     <updated>2022-02-24T07:56:16.310Z</updated>
     
@@ -294,8 +294,8 @@
   
   <entry>
     <title>湖南大学通信系一班 “学习习近平总书记来校考察调研时的重要讲话精神”团课活动与团代表选举大会</title>
-    <link href="http://kamenrider41.gitee.io/2020/10/18/HUN-20TX-1/"/>
-    <id>http://kamenrider41.gitee.io/2020/10/18/HUN-20TX-1/</id>
+    <link href="https://kamenrider41.github.io/2020/10/18/HUN-20TX-1/"/>
+    <id>https://kamenrider41.github.io/2020/10/18/HUN-20TX-1/</id>
     <published>2020-10-18T11:00:00.000Z</published>
     <updated>2022-02-22T09:11:57.996Z</updated>
     
@@ -321,8 +321,8 @@
   
   <entry>
     <title>手把手教学，实现两层神经网络(在b站有辅助视频，视频非原创)</title>
-    <link href="http://kamenrider41.gitee.io/2020/10/07/two-layer-nn/"/>
-    <id>http://kamenrider41.gitee.io/2020/10/07/two-layer-nn/</id>
+    <link href="https://kamenrider41.github.io/2020/10/07/two-layer-nn/"/>
+    <id>https://kamenrider41.github.io/2020/10/07/two-layer-nn/</id>
     <published>2020-10-07T04:00:00.000Z</published>
     <updated>2022-02-22T12:21:44.124Z</updated>
     
@@ -348,8 +348,8 @@
   
   <entry>
     <title>最简单的pycharm专业版2089方法---不是之一</title>
-    <link href="http://kamenrider41.gitee.io/2020/10/02/pycharm-activation/"/>
-    <id>http://kamenrider41.gitee.io/2020/10/02/pycharm-activation/</id>
+    <link href="https://kamenrider41.github.io/2020/10/02/pycharm-activation/"/>
+    <id>https://kamenrider41.github.io/2020/10/02/pycharm-activation/</id>
     <published>2020-10-02T04:00:00.000Z</published>
     <updated>2020-10-18T11:23:39.836Z</updated>
     
@@ -377,8 +377,8 @@
   
   <entry>
     <title>黑客从入门到入狱---一些基本的命令</title>
-    <link href="http://kamenrider41.gitee.io/2020/10/01/hack-simple/"/>
-    <id>http://kamenrider41.gitee.io/2020/10/01/hack-simple/</id>
+    <link href="https://kamenrider41.github.io/2020/10/01/hack-simple/"/>
+    <id>https://kamenrider41.github.io/2020/10/01/hack-simple/</id>
     <published>2020-10-01T13:00:00.000Z</published>
     <updated>2020-10-18T11:39:18.085Z</updated>
     
@@ -404,8 +404,8 @@
   
   <entry>
     <title>CCF CSP经典题刷题汇总---少年，想走捷径吗？</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/07/ccf/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/07/ccf/</id>
+    <link href="https://kamenrider41.github.io/2020/09/07/ccf/"/>
+    <id>https://kamenrider41.github.io/2020/09/07/ccf/</id>
     <published>2020-09-07T11:00:00.000Z</published>
     <updated>2022-02-22T12:29:38.982Z</updated>
     
@@ -431,8 +431,8 @@
   
   <entry>
     <title>CCF炉石传说---谁说玩游戏对学习没帮助的？</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/06/lushichuangshuo/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/06/lushichuangshuo/</id>
+    <link href="https://kamenrider41.github.io/2020/09/06/lushichuangshuo/"/>
+    <id>https://kamenrider41.github.io/2020/09/06/lushichuangshuo/</id>
     <published>2020-09-06T06:00:00.000Z</published>
     <updated>2020-09-07T06:41:06.064Z</updated>
     
@@ -460,8 +460,8 @@
   
   <entry>
     <title>CCF权限查询---解释一下什么是“大力出奇迹”</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/06/quanxianchaxun/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/06/quanxianchaxun/</id>
+    <link href="https://kamenrider41.github.io/2020/09/06/quanxianchaxun/"/>
+    <id>https://kamenrider41.github.io/2020/09/06/quanxianchaxun/</id>
     <published>2020-09-06T05:00:00.000Z</published>
     <updated>2020-09-07T06:42:17.789Z</updated>
     
@@ -489,8 +489,8 @@
   
   <entry>
     <title>CCFMarkdown---用到了状态机的思想</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/06/markdown/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/06/markdown/</id>
+    <link href="https://kamenrider41.github.io/2020/09/06/markdown/"/>
+    <id>https://kamenrider41.github.io/2020/09/06/markdown/</id>
     <published>2020-09-06T04:00:00.000Z</published>
     <updated>2020-09-07T06:44:49.109Z</updated>
     
@@ -518,8 +518,8 @@
   
   <entry>
     <title>CCF路径解析---String::find()&amp;&amp;erase()</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/05/lujingjiexi/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/05/lujingjiexi/</id>
+    <link href="https://kamenrider41.github.io/2020/09/05/lujingjiexi/"/>
+    <id>https://kamenrider41.github.io/2020/09/05/lujingjiexi/</id>
     <published>2020-09-05T08:00:00.000Z</published>
     <updated>2020-09-07T06:26:38.016Z</updated>
     
@@ -545,8 +545,8 @@
   
   <entry>
     <title>CCF画图---一个平平无奇的搜索题bfs</title>
-    <link href="http://kamenrider41.gitee.io/2020/09/05/huatu/"/>
-    <id>http://kamenrider41.gitee.io/2020/09/05/huatu/</id>
+    <link href="https://kamenrider41.github.io/2020/09/05/huatu/"/>
+    <id>https://kamenrider41.github.io/2020/09/05/huatu/</id>
     <published>2020-09-05T07:00:00.000Z</published>
     <updated>2020-09-07T06:24:50.744Z</updated>
     
